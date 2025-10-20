@@ -1,18 +1,6 @@
 import type { Metadata } from "next";
-import { DM_Sans, Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const dmSans = Geist({ subsets: ["latin"] });
+import { geistSans } from "@/font";
 
 export const metadata: Metadata = {
   title: "Auro Labs",
@@ -27,7 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`${dmSans.className} bg-[#EAEEFE] antialiased`}>
+      <body
+        className={`${geistSans.className} antialiased bg-gradient-to-br from-black via-zinc-950 to-slate-950 min-h-screen`}
+      >
         {children}
       </body>
     </html>
