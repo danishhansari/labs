@@ -16,7 +16,7 @@ export const Hero = () => {
           initial={{ opacity: 0, y: 70 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, ease: "easeIn" }}
-          className={`text-center text-4xl md:text-5xl lg:text-6xl font-semibold
+          className={`text-center text-4xl md:text-5xl lg:text-6xl font-bold
              tracking-tight lg:text-balance lg:w-[80%] mx-auto lg:mt-0`}
         >
           From Concept to Launch, We Make It{" "}
