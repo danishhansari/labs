@@ -40,7 +40,7 @@ export const Nav = () => {
     >
       <Navbar className="max-w-5xl mx-auto fixed top-2 lg:top-4">
         <NavBody>
-          {/* <NavbarLogo /> */}
+          <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
             <Button
