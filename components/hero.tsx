@@ -20,7 +20,7 @@ export const Hero = () => {
              tracking-tight lg:text-balance lg:w-[80%] mx-auto lg:mt-0`}
         >
           From Concept to Launch, We Make It{" "}
-          <span className={`${instrumentSerif.className}`}> Happen</span>
+          <span className={`${instrumentSerif.className} text-amber-500`}> Happen</span>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 30 }}
@@ -39,7 +39,7 @@ export const Hero = () => {
         transition={{ duration: 0.4, ease: "easeIn" }}
       >
         <Button
-          className="bg-indigo-900 !px-6 lg:text-md hover:bg-indigo-700 border text-white py-5 w-full md:flex-0"
+          className=" bg-indigo-600 border-none  !px-6 lg:text-md hover:bg-indigo-700 border text-white py-5 w-full md:flex-0"
           variant={"default"}
         >
           Book a Quick Call <Phone />
