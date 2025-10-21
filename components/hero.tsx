@@ -3,23 +3,24 @@ import { motion } from "framer-motion";
 import { Button } from "./ui/button";
 import { Phone, Sparkles } from "lucide-react";
 import { useEffect } from "react";
-import { dancingSans } from "@/font";
+import { dancingSans, instrumentSerif } from "@/font";
 
 export const Hero = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <section className="pb-8 px-4 sm:px-8 md:px-16 lg:px-28 md:pb-10 overflow-x-clip w-full relative pt-20 lg:pt-24">
+    <section className="pb-8 px-4 sm:px-8 h-screen md:px-16 lg:px-28 md:pb-10 overflow-x-clip w-full relative pt-20 lg:pt-24">
       <div className="container flex flex-col items-center relative z-10 gap-2 pt-14">
         <motion.h1
           initial={{ opacity: 0, y: 70 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, ease: "easeIn" }}
-          className={`text-center text-4xl md:text-5xl lg:text-6xl font-semibold
-             tracking-tight lg:text-balance lg:w-[80%] mx-auto lg:mt-0 italic`}
+          className={`text-center text-4xl md:text-5xl lg:text-6xl font-extrabold
+             tracking-tight lg:text-balance lg:w-[80%] mx-auto lg:mt-0`}
         >
-          From Concept to Launch, We Make It Happen
+          From Concept to Launch, We Make It{" "}
+          <span className={`${instrumentSerif.className}`}> Happen</span>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 30 }}

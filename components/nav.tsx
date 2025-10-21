@@ -40,11 +40,11 @@ export const Nav = () => {
     >
       <Navbar className="max-w-5xl mx-auto fixed top-2 lg:top-4">
         <NavBody>
-          <NavbarLogo />
+          {/* <NavbarLogo /> */}
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
             <Button
-              className="bg-indigo-900 hover:bg-indigo-700 border text-white w-full md:flex-0"
+              className="bg-indigo-900 hover:bg-indigo-600 border text-white w-full md:flex-0"
               variant={"default"}
             >
               Book a Quick call
