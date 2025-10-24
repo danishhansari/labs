@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import {
   Navbar,
@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/resizable-navbar";
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { getCalApi } from "@calcom/embed-react";
 
 export const Nav = () => {
   const navItems = [
@@ -31,6 +32,11 @@ export const Nav = () => {
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  useEffect(() => {
+    (async function () {
+      const cal = await getCalApi();
+    })();
+  }, []);
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -44,8 +50,10 @@ export const Nav = () => {
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
             <Button
-              className="bg-indigo-900 hover:bg-indigo-600 border text-white w-full md:flex-0"
+              className="bg-[#20808D] hover:bg-[#1FB8CD] border text-[#FBFAF4] w-full md:flex-0 z-10"
               variant={"default"}
+              data-cal-link="aurolabs"
+              data-cal-config='{"theme":"dark"}'
             >
               Book a Quick call
             </Button>
@@ -70,7 +78,7 @@ export const Nav = () => {
                 key={`mobile-link-${idx}`}
                 href={item.link}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="relative text-neutral-600 dark:text-neutral-300"
+                className="relative text-[#96AAAE] dark:text-black"
               >
                 <span className="block">{item.name}</span>
               </a>
@@ -78,8 +86,10 @@ export const Nav = () => {
             <div className="flex w-full flex-col gap-4">
               <Button
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="bg-indigo-900 hover:bg-indigo-700 border text-white w-full md:flex-0"
+                className="bg-[#20808D] border-none hover:bg-[#1FB8CD] w-full md:flex-0"
                 variant={"default"}
+                data-cal-link="aurolabs"
+                data-cal-config='{"theme":"dark"}'
               >
                 Book a Quick call
               </Button>

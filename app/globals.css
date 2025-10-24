@@ -124,7 +124,7 @@
     @apply px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tighter;
   }
   .btn-primary {
-    @apply bg-black text-white;
+    @apply bg-black text-[#FBFAF4];
   }
   .btn-text {
     @apply text-black bg-transparent;

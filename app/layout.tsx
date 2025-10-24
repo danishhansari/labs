@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { geistSans } from "@/font";
+import { primaryFont } from "@/font";
 
 export const metadata: Metadata = {
   title: "Auro Labs",
@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${geistSans.className} antialiased bg-gradient-to-br from-black via-zinc-950 to-slate-950 min-h-screen`}
+        className={`${primaryFont.className} antialiased bg-[#091717] text-[#FBFAF4] min-h-screen`}
       >
         {children}
       </body>
