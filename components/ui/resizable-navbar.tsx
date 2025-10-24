@@ -73,7 +73,6 @@ export const Navbar = ({ children, className }: NavbarProps) => {
   return (
     <motion.div
       ref={ref}
-      // IMPORTANT: Change this to class of `fixed` if you want the navbar to be fixed
       className={cn("sticky inset-x-0 top-10 z-40 w-full", className)}
     >
       {React.Children.map(children, (child) =>
@@ -93,9 +92,6 @@ export const NavBody = ({ children, className, visible }: NavBodyProps) => {
     <motion.div
       animate={{
         backdropFilter: visible ? "blur(50px)" : "none",
-        boxShadow: visible
-          ? "0 0 24px rgba(34, 42, 53, 0.06), 0 1px 1px rgba(255, 255, 255, 0.1), 0 0 0 1px rgba(34, 42, 53, 0.9), 0 0 4px rgba(34, 42, 53, 0.4), 0 16px 68px rgba(47, 48, 55, 0.5), 0 1px 0 rgba(255, 255, 255, 0.3) inset"
-          : "none",
         width: visible ? "40%" : "100%",
         y: visible ? 20 : 0,
       }}
@@ -109,7 +105,7 @@ export const NavBody = ({ children, className, visible }: NavBodyProps) => {
       }}
       className={cn(
         "relative z-[60] mx-auto hidden w-full max-w-7xl flex-row items-center justify-between self-start rounded-full bg-transparent px-4 py-2 lg:flex dark:bg-transparent",
-        visible && "bg-white/10 dark:bg-neutral-950/80",
+        visible && "dark:bg-[#2E565E]/40",
         className
       )}
     >
@@ -133,7 +129,7 @@ export const NavItems = ({ items, className, onItemClick }: NavItemsProps) => {
         <a
           onMouseEnter={() => setHovered(idx)}
           onClick={onItemClick}
-          className="relative px-4 py-2 text-[#FBFAF4] dark:text-[#FBFAF4]"
+          className="relative px-4 py-2 text-[#FBFAF4]"
           key={`link-${idx}`}
           href={item.link}
         >
@@ -155,9 +151,6 @@ export const MobileNav = ({ children, className, visible }: MobileNavProps) => {
     <motion.div
       animate={{
         backdropFilter: visible ? "blur(50px)" : "none",
-        boxShadow: visible
-          ? "0 0 24px rgba(34, 42, 53, 0.6), 0 1px 1px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(34, 42, 53, 0.4), 0 0 4px rgba(34, 42, 53, 0.8), 0 16px 68px rgba(47, 48, 55, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1) inset"
-          : "none",
         width: visible ? "90%" : "100%",
         paddingRight: visible ? "12px" : "0px",
         paddingLeft: visible ? "12px" : "0px",
@@ -171,7 +164,7 @@ export const MobileNav = ({ children, className, visible }: MobileNavProps) => {
       }}
       className={cn(
         "relative z-50 mx-auto flex w-full max-w-[calc(100vw-2rem)] flex-col items-center justify-between bg-transparent px-0 py-2 lg:hidden",
-        visible && "bg-white/80 dark:bg-[#091717]",
+        visible && "dark:bg-[#2E565E]/80",
         className
       )}
     >
@@ -210,7 +203,7 @@ export const MobileNavMenu = ({
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           className={cn(
-            "absolute inset-x-0 top-16 z-50 flex w-full flex-col items-start justify-start gap-4 rounded-lg px-4 py-8 dark:bg-[#96AAAE]/70 backdrop-blur-xs text-black",
+            "absolute inset-x-0 top-16 z-50 flex w-full flex-col items-start justify-start gap-4 rounded-lg px-4 py-8 dark:bg-[#96AAAE] text-black",
             className
           )}
         >
@@ -241,9 +234,7 @@ export const NavbarLogo = () => {
       href="#"
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
     >
-      <span className={`font-bold text-lg text-[#BADEDD]`}>
-        Auro Labs
-      </span>
+      <span className={`font-bold text-lg text-[#BADEDD]`}>Auro Labs</span>
     </a>
   );
 };
