@@ -3,13 +3,8 @@ import { motion } from "framer-motion";
 import { Button } from "./ui/button";
 import { Phone, Sparkles } from "lucide-react";
 import { useEffect } from "react";
-import {
-  dancingSans,
-  instrumentSerif,
-  primaryFont,
-  secondaryFont,
-} from "@/font";
-import Cal, { getCalApi } from "@calcom/embed-react";
+import { secondaryFont } from "@/font";
+import { getCalApi } from "@calcom/embed-react";
 
 export const Hero = () => {
   useEffect(() => {
