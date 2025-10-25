@@ -1,19 +1,13 @@
 "use client";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { Button } from "./ui/button";
 import { Phone, Sparkles } from "lucide-react";
 import { useEffect } from "react";
 import { secondaryFont } from "@/font";
-import { getCalApi } from "@calcom/embed-react";
 
 export const Hero = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
-  useEffect(() => {
-    (async function () {
-      const cal = await getCalApi();
-    })();
   }, []);
   return (
     <section className="pb-8 px-4 sm:px-8 h-screen md:px-16 lg:px-28 md:pb-10 overflow-x-clip w-full relative pt-24 lg:pt-30">
@@ -50,7 +44,7 @@ export const Hero = () => {
         transition={{ duration: 0.4, ease: "easeIn" }}
       >
         <Button
-          className="bg-[#20808D] border-none  !px-6 lg:text-md hover:bg-[#1FB8CD] border text-[#FBFAF4] py-5 w-full md:flex-0"
+          className="bg-[#20808D] border-none !px-7 hover:scale-105 lg:text-md hover:bg-[#23a1b2] border text-[#FBFAF4] hover:text-white py-6 transition-transform w-full md:flex-0 rounded-full"
           variant={"default"}
           data-cal-link="aurolabs"
           data-cal-config='{"theme":"dark"}'
@@ -58,7 +52,7 @@ export const Hero = () => {
           Book a Quick Call <Phone />
         </Button>
         <Button
-          className="py-5 w-full md:flex-0 lg:text-md !px-6 bg-[#BADEDD] hover:bg-[#D5DDDF] text-[#091717]"
+          className="py-6 rounded-full w-full md:flex-0 lg:text-md !px-7 hover:scale-105 transition-transform bg-[#BADEDD] hover:bg-[#c7ebea] text-[#091717] hover:text-black"
           variant={"secondary"}
         >
           Explore Our Work <Sparkles />

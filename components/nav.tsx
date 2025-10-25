@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import { Button } from "@/components/ui/button";
 import {
   Navbar,
@@ -11,9 +11,8 @@ import {
   MobileNavToggle,
   MobileNavMenu,
 } from "@/components/ui/resizable-navbar";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { useState } from "react";
-import { getCalApi } from "@calcom/embed-react";
 
 export const Nav = () => {
   const navItems = [
@@ -32,11 +31,6 @@ export const Nav = () => {
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  useEffect(() => {
-    (async function () {
-      const cal = await getCalApi();
-    })();
-  }, []);
   return (
     <motion.div
       initial={{ opacity: 0 }}
