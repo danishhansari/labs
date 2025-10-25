@@ -46,7 +46,7 @@ export const Nav = () => {
             <Button
               className="bg-[#20808D] hover:bg-[#1FB8CD] border text-[#FBFAF4] w-full md:flex-0 z-10 rounded-full"
               variant={"default"}
-              data-cal-link="aurolabs"
+              data-cal-link="aurolabs/15min"
               data-cal-config='{"theme":"dark"}'
             >
               Book a Quick call

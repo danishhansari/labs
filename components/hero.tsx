@@ -46,7 +46,7 @@ export const Hero = () => {
         <Button
           className="bg-[#20808D] border-none !px-7 hover:scale-105 lg:text-md hover:bg-[#23a1b2] border text-[#FBFAF4] hover:text-white py-6 transition-transform w-full md:flex-0 rounded-full"
           variant={"default"}
-          data-cal-link="aurolabs"
+          data-cal-link="aurolabs/15min"
           data-cal-config='{"theme":"dark"}'
         >
           Book a Quick Call <Phone />
