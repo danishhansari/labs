@@ -21,7 +21,7 @@ export const Hero = () => {
     })();
   }, []);
   return (
-    <section className="pb-8 px-4 sm:px-8 h-screen md:px-16 lg:px-28 md:pb-10 overflow-x-clip w-full relative pt-20 lg:pt-24">
+    <section className="pb-8 px-4 sm:px-8 h-screen md:px-16 lg:px-28 md:pb-10 overflow-x-clip w-full relative pt-24 lg:pt-30">
       <div className="container flex flex-col items-center relative z-10 gap-2 pt-14">
         <motion.h1
           initial={{ opacity: 0, y: 70 }}
