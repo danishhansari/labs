@@ -1,12 +1,6 @@
 "use client";
-import { dancingSans } from "@/font";
 import { cn } from "@/lib/utils";
-import {
-  BicepsFlexed,
-  Menu as IconMenu2,
-  XIcon as IconX,
-  PlugZap,
-} from "lucide-react";
+import { Menu as IconMenu2, XIcon as IconX } from "lucide-react";
 import {
   motion,
   AnimatePresence,
@@ -79,9 +73,9 @@ export const Navbar = ({ children, className }: NavbarProps) => {
         React.isValidElement(child)
           ? React.cloneElement(
               child as React.ReactElement<{ visible?: boolean }>,
-              { visible },
+              { visible }
             )
-          : child,
+          : child
       )}
     </motion.div>
   );
@@ -106,7 +100,7 @@ export const NavBody = ({ children, className, visible }: NavBodyProps) => {
       className={cn(
         "relative z-[60] mx-auto hidden w-full max-w-7xl flex-row items-center justify-between self-start rounded-full bg-transparent px-4 py-2 lg:flex dark:bg-transparent",
         visible && "dark:bg-[#2E565E]/40",
-        className,
+        className
       )}
     >
       {children}
@@ -122,7 +116,7 @@ export const NavItems = ({ items, className, onItemClick }: NavItemsProps) => {
       onMouseLeave={() => setHovered(null)}
       className={cn(
         "absolute inset-0 hidden flex-1 flex-row items-center justify-center space-x-2 text-sm font-medium text-zinc-600 transition duration-200 hover:text-zinc-800 lg:flex lg:space-x-2",
-        className,
+        className
       )}
     >
       {items.map((item, idx) => (
@@ -165,7 +159,7 @@ export const MobileNav = ({ children, className, visible }: MobileNavProps) => {
       className={cn(
         "relative z-50 mx-auto flex w-full max-w-[calc(100vw-2rem)] flex-col items-center justify-between bg-transparent px-0 py-2 lg:hidden",
         visible && "dark:bg-[#2E565E]/80",
-        className,
+        className
       )}
     >
       {children}
@@ -181,7 +175,7 @@ export const MobileNavHeader = ({
     <div
       className={cn(
         "flex w-full flex-row items-center justify-between",
-        className,
+        className
       )}
     >
       {children}
@@ -204,7 +198,7 @@ export const MobileNavMenu = ({
           exit={{ opacity: 0 }}
           className={cn(
             "absolute inset-x-0 top-16 z-50 flex w-full flex-col items-start justify-start gap-4 rounded-lg px-4 py-8 dark:bg-[#96AAAE] text-black",
-            className,
+            className
           )}
         >
           {children}
