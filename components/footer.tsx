@@ -9,14 +9,6 @@ const Footer = () => {
   const currentMonthName = monthNames[currentMonth];
   return (
     <section className="pb-8 md:pb-10 overflow-x-clip w-full mx-auto relative pt-20 lg:pt-24  text-center">
-      <p
-        className="md:text-[15rem] text-7xl text-transparent select-none"
-        style={{
-          WebkitTextStroke: "1px #20808D",
-        }}
-      >
-        AuroLabs
-      </p>
       <div className="text-2xl mt-8 md:mt-12 md:text-5xl font-semibold text-center tracking-wide mx-auto">
         <p>If you scrolled this far,</p>
         <p>It's time to LEVEL UP</p>
@@ -40,6 +32,14 @@ const Footer = () => {
           config={{ theme: "dark" }}
         />
       </div>
+      <p
+        className="md:text-[15rem] text-7xl text-transparent select-none"
+        style={{
+          WebkitTextStroke: "1px #20808D",
+        }}
+      >
+        AuroLabs
+      </p>
     </section>
   );
 };
