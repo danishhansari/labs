@@ -11,7 +11,7 @@ export const Hero = () => {
   }, []);
   return (
     <section className="pb-8 px-4 sm:px-8 h-screen md:px-16 lg:px-28 md:pb-10 overflow-x-clip w-full relative pt-24 lg:pt-30">
-      <div className="container flex flex-col items-center relative z-10 gap-2 pt-14">
+      <div className="container flex flex-col items-center relative z-10 gap-2 pt-16">
         <motion.h1
           initial={{ opacity: 0, y: 70 }}
           animate={{ opacity: 1, y: 0 }}
@@ -44,7 +44,7 @@ export const Hero = () => {
         transition={{ duration: 0.4, ease: "easeIn" }}
       >
         <Button
-          className="bg-[#20808D] border-none !px-7 hover:scale-105 lg:text-md hover:bg-[#23a1b2] border text-[#FBFAF4] hover:text-white py-6 transition-transform w-full md:flex-0 rounded-full"
+          className="bg-[#20808D] border-none !px-7 hover:scale-105 lg:text-md hover:bg-[#23a1b2] text-[#FBFAF4] hover:text-white py-6 transition-transform w-full md:flex-0 rounded-full"
           variant={"default"}
           data-cal-link="aurolabs/15min"
           data-cal-config='{"theme":"dark"}'
