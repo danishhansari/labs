@@ -2,13 +2,11 @@
 import { Phone } from "lucide-react";
 import { Button } from "./ui/button";
 import Cal from "@calcom/embed-react";
-import { monthNames } from "@/constants";
 import { TextReveal } from "./ui/text-reveal";
+import { format } from "date-fns";
 
 const Footer = () => {
-  const currentMonth = new Date().getUTCMonth();
-  const currentMonthName =
-    monthNames[currentMonth === 0 ? 0 : currentMonth + 1];
+  const currentMonthName = format(new Date(), "MMMM");
   return (
     <section className="pb-8 md:pb-10 overflow-x-clip w-full mx-auto relative pt-20 lg:pt-24  text-center">
       <div className="text-2xl mt-8 md:mt-12 md:text-5xl font-semibold text-center tracking-wide mx-auto">
