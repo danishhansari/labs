@@ -13,7 +13,7 @@ export const Hero = () => {
       <div className="container flex flex-col items-center relative z-10 gap-2 pt-12">
         <h1
           className={`text-center text-4xl md:text-5xl lg:text-6xl font-bold
-             tracking-normal lg:text-balance lg:w-[80%] mx-auto lg:mt-0`}
+             tracking-tight lg:text-balance lg:w-[80%] mx-auto lg:mt-0`}
         >
           From Concept to Launch, We Make It{" "}
           <span

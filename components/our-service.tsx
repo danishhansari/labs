@@ -1,13 +1,73 @@
-import { primaryFont, secondaryFont } from "@/font";
-import { Button } from "./ui/button";
+import { Card, Carousel } from "./ui/apple-cards-carousel";
 
 export const OurService = () => {
+  const cards = data.map((card, index) => (
+    <Card key={card.src} card={card} index={index} />
+  ));
   return (
     <section className="min-h-screen">
       <div className="title flex items-center justify-center flex-col">
-        <p className="text-md py-4 px-6 underline text-lg decoration-wavy decoration-[#20808D] underline-offset-3">Our Services</p>
-        <h1 className={`text-2xl lg:text-5xl  `}>Anything you need. Done for you</h1>
+        <p className="text-md py-4 px-6 underline text-lg decoration-wavy decoration-[#20808D] underline-offset-3">
+          Our Services
+        </p>
+        <h1 className={`text-2xl lg:text-5xl  `}>
+          Anything you need. Done for you
+        </h1>
       </div>
+      <Carousel items={cards} />
     </section>
   );
 };
+
+const Content = () => {
+  return (
+    <>
+      {[...new Array(1).fill(1)].map((_, index) => {
+        return (
+          <div
+            key={"dummy-content" + index}
+            className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
+          >
+            <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+              <span className="font-bold text-neutral-700 dark:text-neutral-200"></span>
+            </p>
+          </div>
+        );
+      })}
+    </>
+  );
+};
+const data = [
+  {
+    category: "Website & Landing Page",
+    title: "Design / Revamp your website",
+    src: "https://i.pinimg.com/1200x/a9/ca/5f/a9ca5f4ad8998dcb4befe2422b597036.jpg",
+    content: <Content />,
+  },
+
+  {
+    category: "Application development",
+    title: "Innovating tomorrow's solutions, today",
+    src: "https://i.pinimg.com/1200x/b5/0c/f6/b50cf6a4d5030125120340f55112fc4e.jpg",
+    content: <Content />,
+  },
+  {
+    category: "Advanced AI and ML solutions",
+    title: "Elevating intelligence, empowering insights",
+    src: "https://i.pinimg.com/1200x/40/f7/9c/40f79cb4adef1ad77e7bd56af153c5fc.jpg",
+    content: <Content />,
+  },
+
+  {
+    category: "Mobile app development",
+    title: "Building tomorrow's apps today",
+    src: "https://i.pinimg.com/736x/f7/5f/39/f75f39c28d3fc7cdd1343b15a8f0b354.jpg",
+    content: <Content />,
+  },
+  {
+    category: "Website & Landing Page",
+    title: "Design / Revamp your website",
+    src: "https://i.pinimg.com/736x/1e/ce/37/1ece373f1a9a4e4c937b7e8233805047.jpg",
+    content: <Content />,
+  },
+];
