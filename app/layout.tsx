@@ -15,6 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <meta name="theme-color" content="#20808D" />
+      </head>
       <body
         className={`${primaryFont.className} antialiased bg-[#091717] text-[#FBFAF4] min-h-screen`}
       >

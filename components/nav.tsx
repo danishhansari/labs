@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { Button } from "@/components/ui/button";
 import {
   Navbar,
@@ -11,7 +10,6 @@ import {
   MobileNavToggle,
   MobileNavMenu,
 } from "@/components/ui/resizable-navbar";
-import { motion } from "motion/react";
 import { useState } from "react";
 
 export const Nav = () => {
@@ -32,12 +30,7 @@ export const Nav = () => {
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.4, delay: 0.4, ease: "easeIn" }}
-      className="mt-3"
-    >
+    <div className="mt-3">
       <Navbar className="max-w-5xl mx-auto fixed top-2 lg:top-4">
         <NavBody>
           <NavbarLogo />
@@ -91,6 +84,6 @@ export const Nav = () => {
           </MobileNavMenu>
         </MobileNav>
       </Navbar>
-    </motion.div>
+    </div>
   );
 };
