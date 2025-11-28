@@ -41,7 +41,7 @@ const data = [
   {
     category: "Website & Landing Page",
     title: "Design / Revamp your website",
-    src: "https://i.pinimg.com/1200x/a9/ca/5f/a9ca5f4ad8998dcb4befe2422b597036.jpg",
+    src: "https://i.pinimg.com/736x/69/cf/64/69cf6428c9565e0c5a7bc896ce70ec15.jpg",
     content: <Content />,
   },
 
