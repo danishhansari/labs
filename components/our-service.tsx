@@ -64,10 +64,4 @@ const data = [
     src: "https://i.pinimg.com/736x/f7/5f/39/f75f39c28d3fc7cdd1343b15a8f0b354.jpg",
     content: <Content />,
   },
-  {
-    category: "Website & Landing Page",
-    title: "Design / Revamp your website",
-    src: "https://i.pinimg.com/736x/1e/ce/37/1ece373f1a9a4e4c937b7e8233805047.jpg",
-    content: <Content />,
-  },
 ];
