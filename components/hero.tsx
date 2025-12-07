@@ -1,5 +1,5 @@
 "use client";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/stateful-button";
 import { Phone, Sparkles } from "lucide-react";
 import { useEffect } from "react";
 import { secondaryFont } from "@/font";
@@ -24,29 +24,26 @@ export const Hero = () => {
           </span>
         </h1>
         <p
-          className={`lg:leading-7 [&:not(:first-child)]:mt-6 text-center text-md md:text-xl lg:w-[60%] mx-auto text-zinc-400  text-balance`}
+          className={`lg:leading-7 [&:not(:first-child)]:mt-6 text-center text-md md:text-xl lg:w-[60%] mx-auto text-[#BADEDD]/80  text-balance`}
         >
           We craft digital experiences that empower brands to innovate,
           dominate, and stay ahead in an ever-evolving tech world.
         </p>
       </div>
-      <div className="flex mt-24 md:mt-12 items-center flex-col md:flex-row gap-4 justify-center">
+      <div className="flex mt-24 md:mt-12 items-center flex-col md:flex-row gap-4 justify-center md:max-w-lg md:mx-auto">
         <Button
-          className="bg-[#20808D] border-none !px-7 hover:scale-105 lg:text-md hover:bg-[#23a1b2] text-[#FBFAF4] hover:text-white py-6 transition-transform w-full md:flex-0 rounded-full"
-          variant={"default"}
+          className="bg-[#20808D] hover:ring-[#23a1b2] !px-8 py-3 text-[#FBFAF4] w-full"
           data-cal-link="aurolabs/15min"
           data-cal-config='{"theme":"dark"}'
         >
-          Book a Quick Call <Phone />
+          Book a Quick Call <Phone size={18} className="inline-block mb-0.5" />
         </Button>
-        <Button
-          className="py-6 rounded-full w-full md:flex-0 lg:text-md !px-7 hover:scale-105 transition-transform bg-[#BADEDD] hover:bg-[#c7ebea] text-[#091717] hover:text-black"
-          variant={"secondary"}
-        >
-          Explore Our Work <Sparkles />
+        <Button className="bg-[#BADEDD] hover:ring-[#c7ebea] text-[#091717] font-thin !px-8 py-3 w-full">
+          Explore Our Work{" "}
+          <Sparkles size={15} className="inline-block mb-0.5" />
         </Button>
       </div>
-      <p className="text-center mt-6 text-zinc-500">
+      <p className="text-center mt-6 text-[#BADEDD]/50 ">
         Get a 7-day trial to see if we're a fit
       </p>
     </section>

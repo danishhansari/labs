@@ -39,12 +39,11 @@ const Content = () => {
 };
 const data = [
   {
-    category: "Website & Landing Page",
-    title: "Design / Revamp your website",
-    src: "https://i.pinimg.com/736x/69/cf/64/69cf6428c9565e0c5a7bc896ce70ec15.jpg",
+    category: "Mobile app development",
+    title: "Building tomorrow's apps today",
+    src: "https://i.pinimg.com/736x/f7/5f/39/f75f39c28d3fc7cdd1343b15a8f0b354.jpg",
     content: <Content />,
   },
-
   {
     category: "Application development",
     title: "Innovating tomorrow's solutions, today",
@@ -59,9 +58,9 @@ const data = [
   },
 
   {
-    category: "Mobile app development",
-    title: "Building tomorrow's apps today",
-    src: "https://i.pinimg.com/736x/f7/5f/39/f75f39c28d3fc7cdd1343b15a8f0b354.jpg",
+    category: "Website & Landing Page",
+    title: "Design / Revamp your website",
+    src: "https://i.pinimg.com/736x/69/cf/64/69cf6428c9565e0c5a7bc896ce70ec15.jpg",
     content: <Content />,
   },
 ];

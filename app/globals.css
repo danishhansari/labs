@@ -117,4 +117,13 @@
   body {
     @apply bg-background text-foreground;
   }
+  *::-webkit-scrollbar {
+    height: 0; /* hide horizontal scrollbar track by setting height to 0 */
+    background: transparent;
+  }
+
+  /* Optional: target horizontal scrollbar specifically */
+  *::-webkit-scrollbar:horizontal {
+    height: 0;
+  }
 }
