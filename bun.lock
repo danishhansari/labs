@@ -8,6 +8,7 @@
         "@radix-ui/react-slot": "^1.2.3",
         "@tabler/icons-react": "^3.35.0",
         "@types/gsap": "^3.0.0",
+        "baseline-browser-mapping": "^2.9.4",
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
         "date-fns": "^4.1.0",
@@ -187,6 +188,8 @@
     "@types/react": ["@types/react@19.2.7", "", { "dependencies": { "csstype": "^3.2.2" } }, "sha512-MWtvHrGZLFttgeEj28VXHxpmwYbor/ATPYbBfSFZEIRK0ecCFLl2Qo55z52Hss+UV9CRN7trSeq1zbgx7YDWWg=="],
 
     "@types/react-dom": ["@types/react-dom@19.2.3", "", { "peerDependencies": { "@types/react": "^19.2.0" } }, "sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ=="],
+
+    "baseline-browser-mapping": ["baseline-browser-mapping@2.9.4", "", { "bin": { "baseline-browser-mapping": "dist/cli.js" } }, "sha512-ZCQ9GEWl73BVm8bu5Fts8nt7MHdbt5vY9bP6WGnUh+r3l8M7CgfyTlwsgCbMC66BNxPr6Xoce3j66Ms5YUQTNA=="],
 
     "caniuse-lite": ["caniuse-lite@1.0.30001747", "", {}, "sha512-mzFa2DGIhuc5490Nd/G31xN1pnBnYMadtkyTjefPI7wzypqgCEpeWu9bJr0OnDsyKrW75zA9ZAt7pbQFmwLsQg=="],
 
