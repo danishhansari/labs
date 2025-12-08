@@ -5,6 +5,13 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  images: {
+    remotePatterns: [
+      {
+        hostname: "cdn.dribbble.com",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
