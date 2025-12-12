@@ -10,7 +10,6 @@ export const Work = () => {
               src="https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F50266%2Fgroomify-FSC3w9BV65KrfItLtEvjaylE1GGypS&w=640&q=100"
               alt="Image"
               fill
-              className="object-cover"
             />
           </div>
 
