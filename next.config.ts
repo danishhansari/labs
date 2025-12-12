@@ -8,9 +8,6 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        hostname: "cdn.dribbble.com",
-      },
-      {
         hostname: "www.framer.com",
       },
     ],

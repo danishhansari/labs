@@ -22,13 +22,7 @@ export const Work = () => {
             />
           </div>
 
-          <div className="relative bg-[#BADEDD]/10 h-56 w-60 rounded-xl overflow-hidden">
-            <Image
-              src="https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F49239%2Fwallet-BcfpwAgJ1L3RP6d39sWPB457kqD8YB&w=640&q=100"
-              alt="Image"
-              fill
-            />
-          </div>
+          <div className="relative bg-[#BADEDD]/10 h-56 w-60 rounded-xl overflow-hidden"></div>
         </div>
         <div className="flex flex-col gap-2">
           <div className="relative bg-[#BADEDD]/10 h-40 w-60 rounded-xl overflow-hidden">
@@ -57,23 +51,13 @@ export const Work = () => {
           </div>
         </div>
         <div className="flex flex-col gap-2">
-          <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-sm overflow-hidden relative">
-           
-          </div>
+          <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-sm overflow-hidden relative"></div>
           <div className="bg-[#BADEDD]/10 h-56 w-60 rounded-xl"></div>
           <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-xl"></div>
         </div>
         <div className="flex flex-col gap-2">
           <div className="bg-[#BADEDD]/10 h-56 w-60 rounded-xl"></div>
-          <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-xl overflow-hidden relative">
-            <Image
-              src={
-                "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F53141%2Fmeridian-wvk1ogmzL9sFNXlBupJjYkqqub2atU&w=640&q=100"
-              }
-              fill
-              alt=""
-            />
-          </div>
+          <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-xl overflow-hidden relative"></div>
           <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-xl"></div>
         </div>
         <div className="flex flex-col gap-2">
