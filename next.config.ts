@@ -10,6 +10,9 @@ const nextConfig: NextConfig = {
       {
         hostname: "cdn.dribbble.com",
       },
+      {
+        hostname: "www.framer.com",
+      },
     ],
   },
 };
