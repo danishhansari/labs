@@ -5,13 +5,6 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  images: {
-    remotePatterns: [
-      {
-        hostname: "www.framer.com",
-      },
-    ],
-  },
 };
 
 export default nextConfig;

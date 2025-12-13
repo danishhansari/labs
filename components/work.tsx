@@ -8,23 +8,27 @@ export const Work = () => {
           <div className="relative bg-[#BADEDD]/10 h-40 w-60 rounded-sm overflow-hidden">
             <Image
               alt="kj"
-              src="https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F50716%2Fportfolite-tSdwL2z7uMF6IBuGzhEUgbCmCKfrgt&w=640&q=100"
+              src="https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/50716/portfolite-tSdwL2z7uMF6IBuGzhEUgbCmCKfrgt"
+              unoptimized
               fill={true}
+              className="scale-110"
             />
           </div>
 
           <div className="relative bg-[#BADEDD]/10 h-40 w-60 rounded-sm overflow-hidden">
             <Image
-              src="https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F50561%2Fupreach-ZPerqqHDD2M86y3nVJt2Ah3LUatoCF&w=640&q=100"
+              src="https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/50561/upreach-ZPerqqHDD2M86y3nVJt2Ah3LUatoCF"
+              unoptimized
               alt="Image"
               fill
-              className="object-cover"
+              className="object-cover scale-110"
             />
           </div>
 
           <div className="relative bg-[#BADEDD]/10 h-56 w-60 rounded-sm overflow-hidden">
             <Image
-              src="https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F45423%2Flimitless-iUrhuyeHT4wlKxawc6lNUp0ygapDL4&w=640&q=100"
+              src="https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/45423/limitless-iUrhuyeHT4wlKxawc6lNUp0ygapDL4"
+              unoptimized
               alt="Image"
               fill
               className="object-cover"
@@ -34,59 +38,138 @@ export const Work = () => {
         <div className="flex flex-col gap-2">
           <div className="relative bg-[#BADEDD]/10 h-40 w-60 rounded-sm overflow-hidden">
             <Image
-              src="https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F50266%2Fgroomify-FSC3w9BV65KrfItLtEvjaylE1GGypS&w=640&q=100"
+              src="https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/50266/groomify-FSC3w9BV65KrfItLtEvjaylE1GGypS"
+              unoptimized
               alt="Image"
               fill
+              className="scale-115"
             />
           </div>
 
           <div className="bg-[#BADEDD]/10 h-56 w-60 rounded-sm relative overflow-hidden">
             <Image
-              src="https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F56075%2Fally-IvwZ3LkoXYQr2rVY6sePSQiS9CtIFi&w=640&q=100"
+              src="https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/56075/ally-IvwZ3LkoXYQr2rVY6sePSQiS9CtIFi"
+              unoptimized
               alt="Image"
               fill
               className="object-cover"
             />
           </div>
-          <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-sm relative overflow-hidden"></div>
+          <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-sm relative overflow-hidden">
+            <Image
+              src={
+                "https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/54860/surfing-bCQoazeh872jdvvRDgozBfStG14GuZ"
+              }
+              alt=""
+              fill
+              unoptimized
+              className="scale-110"
+            />
+          </div>
         </div>
         <div className="flex flex-col gap-2">
-          <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-sm overflow-hidden relative"></div>
-          <div className="bg-[#BADEDD]/10 h-56 w-60 rounded-sm overflow-hidden relative"></div>
           <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-sm overflow-hidden relative">
             <Image
-              src="https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F51619%2Fomnis-4uc7qRIHGQxBduDtkTX8PRzZ3gJqU0&w=640&q=100"
+              src={
+                "https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/54333/livohaus-sQdWqpf9r6tM7OQNIbdC3lslzPmsTw"
+              }
+              fill
+              unoptimized
+              alt=""
+              className="scale-110"
+            />
+          </div>
+          <div className="bg-[#BADEDD]/10 h-56 w-60 rounded-sm overflow-hidden relative">
+            <Image
+              src={
+                "https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/54327/article-x-JlOcvKGsYP6y05tP9hQmSTZbXie2uc"
+              }
+              fill
+              unoptimized
+              alt=""
+            />
+          </div>
+          <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-sm overflow-hidden relative">
+            <Image
+              src="https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/51619/omnis-4uc7qRIHGQxBduDtkTX8PRzZ3gJqU0
+"
+              unoptimized
               alt=""
               fill
             />
           </div>
         </div>
         <div className="flex flex-col gap-2">
-          <div className="bg-[#BADEDD]/10 h-56 w-60 rounded-sm"></div>
-          <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-sm overflow-hidden relative">
+          <div className="bg-[#BADEDD]/10 h-56 w-60 rounded-sm overflow-hidden relative">
             <Image
               alt="kjfsd"
               fill
-              src="https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F49318%2Fhaven-ZoHgbjfQevPZMbQRxDCFX3jGuPSQjz&w=640&q=100"
+              src="https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/49318/haven-ZoHgbjfQevPZMbQRxDCFX3jGuPSQjz"
+              unoptimized
             />
           </div>
           <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-sm overflow-hidden relative">
             <Image
-              src="https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F58050%2Fstudio13-oQKOMZdYQh2jbqJDnjNWQWPoHeNVd0&w=640&q=100"
+              src={
+                "https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/55636/cassis-76Uv753MO1lUFj0Uf4vklwbGpOQ5ed"
+              }
+              fill
+              unoptimized
+              alt=""
+            />
+          </div>
+          <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-sm overflow-hidden relative">
+            <Image
+              src="https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/58050/studio13-oQKOMZdYQh2jbqJDnjNWQWPoHeNVd0"
               alt="Image"
               fill
+              unoptimized
               className="object-cover"
             />
           </div>
         </div>
         <div className="flex flex-col gap-2">
-          <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-sm"></div>
-          <div className="bg-[#BADEDD]/10 h-56 w-60 rounded-sm"></div>
-          <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-sm"></div>
+          <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-sm relative overflow-hidden">
+            <Image
+              src="https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/50492/fluence-LvP6brKdrRaCial8EhJaHCVSEQc5hb"
+              fill
+              unoptimized
+              alt="img"
+            />
+          </div>
+          <div className="bg-[#BADEDD]/10 h-56 w-60 rounded-sm relative overflow-hidden"></div>
+          <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-sm overflow-hidden relative">
+            <Image
+              src="https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/51978/aset-IYy1KOMlT32O4hjcNf6sURehkXNrGO
+"
+              alt=""
+              fill
+              unoptimized
+            />
+          </div>
         </div>
         <div className="flex flex-col gap-2">
-          <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-sm"></div>
-          <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-sm"></div>
+          <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-sm overflow-hidden relative">
+            <Image
+              alt=""
+              src={
+                "https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/48721/sociallift-56bBKGej3fPXKrfhYwEBt7u7oE3Y4v"
+              }
+              fill
+              unoptimized
+            />
+          </div>
+          <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-sm overflow-hidden relative">
+            <Image
+              src={
+                "https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/55154/evotrack-2osvSbGLl3N3DCOkE47vDkrPnnyhHK"
+              }
+              fill
+              unoptimized
+              className="object-cover"
+              alt=""
+            />
+          </div>
           <div className="bg-[#BADEDD]/10 h-56 w-60 rounded-sm relative overflow-hidden"></div>
         </div>
       </div>
