@@ -5,6 +5,14 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "y4pdgnepgswqffpt.public.blob.vercel-storage.com",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
