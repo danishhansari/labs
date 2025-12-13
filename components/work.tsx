@@ -137,11 +137,20 @@ export const Work = () => {
               alt="img"
             />
           </div>
-          <div className="bg-[#BADEDD]/10 h-56 w-60 rounded-sm relative overflow-hidden"></div>
+          <div className="bg-[#BADEDD]/10 h-56 w-60 rounded-sm relative overflow-hidden">
+            <Image
+              src={
+                "https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/49780/lanx-QvdUMb0rgxiQvC858K2mLg7cbBcnue"
+              }
+              fill
+              unoptimized
+              alt=""
+            />
+          </div>
           <div className="bg-[#BADEDD]/10 h-40 w-60 rounded-sm overflow-hidden relative">
             <Image
-              src="https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/51978/aset-IYy1KOMlT32O4hjcNf6sURehkXNrGO
-"
+              src="https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/52785/flowos-yliioopNiOYCmJkhvVsiPVPg9aH4SQ"
+              className="scale-105"
               alt=""
               fill
               unoptimized
@@ -170,7 +179,15 @@ export const Work = () => {
               alt=""
             />
           </div>
-          <div className="bg-[#BADEDD]/10 h-56 w-60 rounded-sm relative overflow-hidden"></div>
+          <div className="bg-[#BADEDD]/10 h-56 w-60 rounded-sm relative overflow-hidden">
+            <Image
+              src="https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/templates/55493/dayconn-eQrOQ6m3Y3VXYSugrpshiL0g84hP0f"
+              alt=""
+              unoptimized
+              className="scale-110"
+              fill
+            />
+          </div>
         </div>
       </div>
     </section>
