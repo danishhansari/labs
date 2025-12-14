@@ -19,6 +19,19 @@ export const Work = () => {
             }
           }
 
+          @media (max-width: 768px) {
+            @keyframes scrollRight {
+              0% {
+                transform: translateX(0);
+              }
+              50% {
+                transform: translateX(-50%);
+              }
+              100% {
+                transform: translateX(0);
+              }
+            }
+          }
           .scroll-content {
             animation: scrollRight 20s linear infinite;
             animation-play-state: paused;
