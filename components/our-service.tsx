@@ -5,14 +5,12 @@ export const OurService = () => {
     <Card key={card.src} card={card} index={index} />
   ));
   return (
-    <section className="min-h-screen">
+    <section className="mi-h-screen mt-8">
       <div className="title flex items-center justify-center flex-col">
-        <p className="text-md py-4 px-6 underline text-lg decoration-wavy decoration-[#20808D] underline-offset-3">
-          Our Services
+        <p className="py-4 px-6 text-5xl mt-8 md:mt-16">Our Services</p>
+        <p className="font-thin text-xl">
+          High-impact design, robust engineering, and products built to grow.
         </p>
-        <h1 className={`text-2xl lg:text-5xl  `}>
-          Anything you need. Done for you
-        </h1>
       </div>
       <Carousel items={cards} />
     </section>
@@ -25,7 +23,7 @@ const Content = () => {
       {[...new Array(1).fill(1)].map((_, index) => {
         return (
           <div
-            key={"dummy-content" + index}
+            key={"" + index}
             className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
           >
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">

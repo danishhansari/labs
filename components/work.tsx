@@ -53,15 +53,15 @@ export const Work = () => {
       </style>
       <div className="scroll-container overflow-hidden relative">
         <div
-          className="scroll-content flex gap-2"
+          className="scroll-content flex gap-3"
           style={{ width: "max-content" }}
         >
           {images.map((col, i) => (
-            <div key={i} className="flex flex-col gap-2">
+            <div key={i} className="flex flex-col gap-3">
               {col.map((img, j) => (
                 <div
                   key={j}
-                  className={`relative bg-[#BADEDD]/10 ${img.h} w-60 rounded-sm overflow-hidden`}
+                  className={`relative bg-[#BADEDD]/10 ${img.h} w-60 rounded-sm border overflow-hidden`}
                 >
                   <Image
                     src={img.src}
