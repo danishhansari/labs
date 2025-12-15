@@ -8,7 +8,7 @@ export const OurService = () => {
     <section className="mi-h-screen mt-8">
       <div className="title flex items-center justify-center flex-col">
         <p className="py-4 px-6 text-5xl mt-8 md:mt-16">Our Services</p>
-        <p className="font-thin text-xl">
+        <p className="font-thin text-md md:text-xl">
           High-impact design, robust engineering, and products built to grow.
         </p>
       </div>
