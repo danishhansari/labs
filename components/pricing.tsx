@@ -3,63 +3,67 @@ import { Button } from "./ui/button";
 
 export const Pricing = () => {
   return (
-    <section className="flex gap-4 flex-col px-4 md:flex-row items-stretch max-w-6xl mx-auto text-sm justify-around">
-      <Card
-        cta="Launch My Product"
-        title="Founders & startups who need speed without shortcuts"
-        outcome="You'll walk away with a fully launched, conversion-ready website
+    <div>
+      <section className="flex gap-4 flex-col px-4 md:flex-row items-stretch max-w-6xl mx-auto text-sm justify-around">
+        <Card
+          cta="Launch My Product"
+          title="Founders & startups who need speed without shortcuts"
+          outcome="You'll walk away with a fully launched, conversion-ready website
           or MVP"
-        guarantee="If we
+          guarantee="If we
           miss the deadline, you get 10% off, no questions asked."
-        plan="Launch Sprint"
-        postOutcome="This is not a draft. This is launch-ready."
-        deliveryTime="Delivered in 10–14 days"
-        promise={[
-          "Product & conversion strategy session",
-          "UI/UX design tailored to your audience",
-          "Fully responsive website or MVP build",
-          "Core integrations (forms, analytics, basic APIs)",
-          "QA testing & launch support",
-        ]}
-        price="$999"
-      />
+          plan="Launch Sprint"
+          postOutcome="This is not a draft. This is launch-ready."
+          deliveryTime="Delivered in 10–14 days"
+          promise={[
+            "Product & conversion strategy session",
+            "UI/UX design tailored to your audience",
+            "Fully responsive website or MVP build",
+            "Core integrations (forms, analytics, basic APIs)",
+            "QA testing & launch support",
+          ]}
+          price="$999"
+        />
 
-      <Card
-        cta="Scale my product"
-        title="Best for Startups and teams ready to scale traffic, users, or revenue"
-        outcome="A scalable web or mobile product built to handle growth, performance, and real users."
-        guarantee="Not happy with the result? We revise until it meets the agreed outcome."
-        plan="Growth Sprint"
-        postOutcome="More than features — a product built to grow."
-        deliveryTime="Delivered in 3–4 weeks"
-        promise={[
-          "Product roadmap & technical architecture",
-          "Full website or mobile app development",
-          "Backend systems & API integrations",
-          "Performance optimization & security best practices",
-          "Deployment + post-launch support",
-        ]}
-        price="$1599"
-      />
+        <Card
+          cta="Scale my product"
+          title="Best for Startups and teams ready to scale traffic, users, or revenue"
+          outcome="A scalable web or mobile product built to handle growth, performance, and real users."
+          guarantee="Not happy with the result? We revise until it meets the agreed outcome."
+          plan="Growth Sprint"
+          postOutcome="More than features — a product built to grow."
+          deliveryTime="Delivered in 3–4 weeks"
+          promise={[
+            "Product roadmap & technical architecture",
+            "Full website or mobile app development",
+            "Backend systems & API integrations",
+            "Performance optimization & security best practices",
+            "Deployment + post-launch support",
+          ]}
+          price="$1599"
+          planCol="bg-[#a7a4dc]"
+        />
 
-      <Card
-        cta="Talk to us"
-        title="Best for Complex products, startups, and enterprises needing long-term execution"
-        outcome="A custom digital product delivered in sprints—aligned with business goals, low debt, built to scale."
-        guarantee="Transparent milestones. Pay only for completed, approved work."
-        plan="Product Partner Sprint"
-        postOutcome="We work as your extended product team."
-        deliveryTime="Custom roadmap"
-        promise={[
-          "Clear scope & success metrics",
-          "Fixed timelines — no endless delays",
-          "Direct communication with builders",
-          "Production-ready code",
-          "Post-launch support",
-        ]}
-        price="Custom Pricing"
-      />
-    </section>
+        <Card
+          cta="Talk to us"
+          title="Best for Complex products, startups, and enterprises needing long-term execution"
+          outcome="A custom digital product delivered in sprints—aligned with business goals, low debt, built to scale."
+          guarantee="Transparent milestones. Pay only for completed, approved work."
+          plan="Product Partner Sprint"
+          postOutcome="We work as your extended product team."
+          deliveryTime="Custom roadmap"
+          promise={[
+            "Clear scope & success metrics",
+            "Fixed timelines — no endless delays",
+            "Direct communication with builders",
+            "Production-ready code",
+            "Post-launch support",
+          ]}
+          price="Custom Pricing"
+          planCol="bg-[#dcd5a4]"
+        />
+      </section>
+    </div>
   );
 };
 
@@ -73,6 +77,7 @@ const Card = ({
   postOutcome,
   deliveryTime,
   price,
+  planCol,
 }: {
   plan: string;
   title: string;
@@ -83,12 +88,15 @@ const Card = ({
   postOutcome: string;
   deliveryTime: string;
   price?: string;
+  planCol?: string;
 }) => {
   return (
     <>
       <div className="p-6 rounded-4xl bg-black/50 border" id="pricing">
         <button
-          className="rounded-4xl py-1 border px-4 bg-[#BADEDD] text-zinc-800"
+          className={`rounded-4xl py-1 border px-4 ${
+            planCol ? planCol : "bg-[#BADEDD]"
+          }  text-zinc-800`}
           disabled
         >
           {plan}
