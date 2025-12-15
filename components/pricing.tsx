@@ -86,7 +86,7 @@ const Card = ({
 }) => {
   return (
     <>
-      <div className="p-6 rounded-4xl bg-black/80 border">
+      <div className="p-6 rounded-4xl bg-black/50 border" id="pricing">
         <button
           className="rounded-4xl py-1 border px-4 bg-[#BADEDD] text-zinc-800"
           disabled

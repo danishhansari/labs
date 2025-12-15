@@ -122,6 +122,9 @@
     background: transparent;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
   /* Optional: target horizontal scrollbar specifically */
   *::-webkit-scrollbar:horizontal {
     height: 0;

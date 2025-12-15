@@ -5,7 +5,7 @@ export const OurService = () => {
     <Card key={card.src} card={card} index={index} />
   ));
   return (
-    <section className="mi-h-screen mt-8">
+    <section className="mi-h-screen mt-8" id="services">
       <div className="title flex items-center justify-center flex-col">
         <p className="py-4 px-6 text-5xl mt-8 md:mt-16">Our Services</p>
         <p className="font-thin text-md md:text-xl text-center">
