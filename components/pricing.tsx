@@ -57,7 +57,7 @@ export const Pricing = () => {
           "Production-ready code",
           "Post-launch support",
         ]}
-        price=" "
+        price="Custom Pricing"
       />
     </section>
   );
