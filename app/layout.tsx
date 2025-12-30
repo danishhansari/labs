@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { primaryFont } from "@/font";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Auro Labs",
@@ -19,7 +22,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#20808D" />
       </head>
       <body
-        className={`${primaryFont.className} antialiased bg-[#091717] text-[#FBFAF4] min-h-screen`}
+        className={`${inter.className} antialiased bg-[#040E0E] text-white min-h-screen`}
       >
         {children}
       </body>
