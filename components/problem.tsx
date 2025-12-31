@@ -26,7 +26,7 @@ export const Problem = () => {
             >
               problems
             </h2>
-            <p className={`px-4 text-5xl ${romanFont.className} w-[60%] mt-3`}>
+            <p className={`px-4 text-5xl ${romanFont.className} w-[65%] mt-3`}>
               Product building shouldn&apos;t be this complicated
             </p>
             <button className="mx-4 mt-8 text-center bg-[#0D2727] text-white rounded-xs px-6 py-2">
