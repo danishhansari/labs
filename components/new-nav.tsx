@@ -24,7 +24,7 @@ export const NewNav = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return (
     <div className="relative border-b px-4 sm:px-8 lg:px-16">
-      <div className="absolute bottom-[-4px] left-0 w-full flex justify-between px-14">
+      <div className="absolute -bottom-1 left-0 w-full flex justify-between px-4 sm:px-6 lg:px-14">
         <span className="w-2 h-2 rounded-full bg-[#040E0E] border ml-1"></span>
         <span className="w-2 h-2 rounded-full bg-[#040E0E] border mr-1"></span>
       </div>
@@ -33,7 +33,7 @@ export const NewNav = () => {
           <div className="flex items-center gap-12 text-">
             <a
               href="#"
-              className="text-2xl font-medium bg-gradient-to-b from-[#41C4C6] to-white text-transparent bg-clip-text"
+              className="text-2xl font-medium bg-linear-to-b from-[#41C4C6] to-white text-transparent bg-clip-text"
             >
               AuroLabs
             </a>
