@@ -12,7 +12,6 @@ import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "motion/react";
 import Image, { ImageProps } from "next/image";
 import { useOutsideClick } from "@/hooks/use-outside-click";
-import { primaryFont } from "@/font";
 
 interface CarouselProps {
   items: JSX.Element[];
@@ -182,9 +181,7 @@ export const Card = ({
     <>
       <AnimatePresence>
         {open && (
-          <div
-            className={`fixed inset-0 z-50 h-screen overflow-auto ${primaryFont.className}`}
-          >
+          <div className={`fixed inset-0 z-50 h-screen overflow-auto`}>
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}

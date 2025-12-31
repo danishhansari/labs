@@ -31,7 +31,7 @@ export const Banner = () => {
           </defs>
         </svg>
         <span
-          className={`uppercase ${ibmPlexMono.className} text-sm bg-clip-text text-transparent bg-gradient-to-b from-white to-[#41C4C6]`}
+          className={`uppercase ${ibmPlexMono.className}  text-sm bg-clip-text text-transparent bg-linear-to-b tracking-widest from-white to-[#41C4C6]`}
         >
           Design & build sprints for startups
         </span>
