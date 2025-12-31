@@ -1,5 +1,11 @@
 import { ibmPlexMono, romanFont } from "@/font";
-import { CircleAlert } from "lucide-react";
+import { Direction } from "@/svg/direction";
+import { Marker } from "@/svg/marker";
+import { OverbuiltMvp } from "@/svg/overflow";
+import { Question } from "@/svg/question";
+import { SlowDevelopment } from "@/svg/slow-development";
+import { Timeline } from "@/svg/timeline";
+import { Calendar1, CircleAlert } from "lucide-react";
 
 export const Problem = () => {
   return (
@@ -82,7 +88,31 @@ export const Problem = () => {
               </li>{" "}
             </ul>
           </div>
-          <div className="bg-[#FAFAFA] items-stretch"></div>
+          <div className="bg-[#FAFAFA] items-stretch">
+            <p>
+              <Timeline />
+              Unpredictable Timelines
+            </p>
+            <p>
+              <Marker />
+              Design Without Strategy
+            </p>
+            <p>
+              <SlowDevelopment />
+              Slow Development Cycles
+            </p>
+            <p>
+              <OverbuiltMvp />
+              Overbuilt MVPs
+            </p>
+            <p>
+              <Direction /> Unclear Product Direction
+            </p>
+            <p>
+              <Question />
+              Agencty Communication Gaps
+            </p>
+          </div>
         </div>
       </div>
     </div>
