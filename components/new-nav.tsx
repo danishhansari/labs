@@ -46,7 +46,7 @@ export const NewNav = () => {
               ))}
             </ul>
           </div>
-          <button className="text-sm border px-3 py-1 rounded-xs">
+          <button className="text-sm border px-3 py-1.5 rounded-sm hover:bg-[#849191]/10 transition-colors cursor-pointer">
             Book a call
           </button>
         </nav>
