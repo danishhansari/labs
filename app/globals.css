@@ -126,7 +126,7 @@
     font-size: 0.875rem; /* text-sm */
     letter-spacing: normal;
 
-    background: linear-gradient(90deg, #ffffff, #41c4c6, #ffffff);
+    background: linear-gradient(90deg, #ffffff,#fff, #41c4c6, #ffffff);
     background-size: 200% 200%;
 
     -webkit-background-clip: text;

@@ -1,6 +1,5 @@
-import { IBM_Plex_Mono } from "next/font/google";
+import { ibmPlexMono } from "@/font";
 
-const ibmPlexMono = IBM_Plex_Mono({ weight: "400" });
 export const Banner = () => {
   return (
     <div className="relative px-4 sm:px-8 lg:px-16">
