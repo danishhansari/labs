@@ -3,7 +3,7 @@ import { ibmPlexMono, romanFont } from "@/font";
 export const NewService = () => {
   return (
     <>
-      <div className="bg-white py-14 text-[#040E0E] border-y border-gray-200">
+      <div className="bg-white py-4 text-[#040E0E] border-gray-200">
         <div className="relative px-4 sm:px-8 lg:px-16 border-y border-gray-200">
           <div className="relative border-x border-gray-200">
             <div className="pt-12 border">
