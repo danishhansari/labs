@@ -25,8 +25,8 @@ export const NewNav = () => {
   return (
     <div className="relative border-b px-4 sm:px-8 lg:px-16">
       <div className="absolute -bottom-1 left-0 w-full flex justify-between px-4 sm:px-6 lg:px-14">
-        <span className="w-2 h-2 rounded-full bg-[#040E0E] border ml-1 z-10"></span>
-        <span className="w-2 h-2 rounded-full bg-[#040E0E] border mr-1 z-10"></span>
+        <span className="w-2.5 h-2.5 rounded-full bg-[#040E0E] border ml-1 z-10"></span>
+        <span className="w-2.5 h-2.5 rounded-full bg-[#040E0E] border mr-1 z-10"></span>
       </div>
       <div className="px-8 py-5 border-x-[0.01px] border-t-0 ">
         <nav className="flex items-center justify-between">
