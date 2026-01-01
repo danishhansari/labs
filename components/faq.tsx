@@ -24,7 +24,7 @@ export const Faq = () => {
                 Frequently asked questions
               </h1>
             </div>
-            <div className="w-1/2 mt-4 py-4 pb-8 mx-auto">
+            <div className="w-[55%] mt-4 py-4 pb-8 mx-auto">
               <Accordion
                 className="border-b border-gray-200"
                 type="single"
