@@ -28,7 +28,7 @@ export const NewHero = () => {
           </button>
         </div>
 
-        <div className="mb-8 mt-18 flex items-center justify-center gap-8">
+        <div className="mb-8 mt-18 flex items-center justify-center gap-10">
           <p className="flex items-center gap-2 text-sm">
             <Fast /> Fast Product Launches
           </p>
