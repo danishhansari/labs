@@ -1,4 +1,6 @@
 import { ibmPlexMono, romanFont } from "@/font";
+import { BenefitsGrowth } from "@/svg/benefits-growth";
+import { Target } from "@/svg/target";
 import { Brain, MessageSquareDot, UserRound, Zap } from "lucide-react";
 
 export const Benefits = () => {
@@ -78,27 +80,28 @@ export const Benefits = () => {
 
               <div className="p-6 border-t border-r border-gray-200">
                 <div className="bg-[#3B8EFC14] border border-[#BCD7FF] rounded-md inline-block p-1 px-1.5 my-2">
-                  <UserRound color="#3B8EFC" />
+                  {/* <UserRound color="#3B8EFC" /> */}
+                  <BenefitsGrowth />
                 </div>
                 <h4 className={`${romanFont.className} text-xl mb-2`}>
-                  Founder-First Thinking
+                  Scalable Builds
                 </h4>
                 <p className={`text-[#676C6C] text-base`}>
-                  We prioritize your business goals and user needs, not internal
-                  processes or unnecessary technical complexity.
+                  We design and build scalable products that grow smoothly,
+                  without performance issues or costly rebuilds later.
                 </p>
               </div>
 
               <div className="p-6 border-t border-gray-200">
                 <div className="bg-[#3B8EFC14] border border-[#BCD7FF] rounded-md inline-block p-1 px-1.5 my-2">
-                  <UserRound color="#3B8EFC" />
+                  <Target />
                 </div>
                 <h4 className={`${romanFont.className} text-xl mb-2`}>
-                  Founder-First Thinking
+                  Outcome Driven
                 </h4>
                 <p className={`text-[#676C6C] text-base`}>
-                  We prioritize your business goals and user needs, not internal
-                  processes or unnecessary technical complexity.
+                  Our success is measured by impact—better usability, stronger
+                  conversions, and products people actually use.
                 </p>
               </div>
             </div>
