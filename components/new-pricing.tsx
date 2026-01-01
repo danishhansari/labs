@@ -319,6 +319,13 @@ export const NewPricing = () => {
               </div>
             </div>
           </div>
+
+          <div className="relative px-4 sm:px-8 lg:px-16">
+            <div className="absolute -bottom-1 -left-1.5 w-[101%] flex justify-between pointer-events-none">
+              <span className="w-2.5 h-2.5 rounded-full bg-white border border-gray-200 z-10" />
+              <span className="w-2.5 h-2.5 rounded-full bg-white border border-gray-200 z-10" />
+            </div>
+          </div>
         </div>
       </div>
     </>
