@@ -25,7 +25,7 @@ export const Benefits = () => {
             >
               Why teams choose AuroLabs
             </h2>
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-3 border-b border-gray-200">
               <div className="p-6 border-t border-r border-gray-200">
                 <div className="bg-[#3B8EFC14] border border-[#BCD7FF] rounded-md inline-block p-1 px-1.5 my-2">
                   <UserRound color="#3B8EFC" size={27} />
@@ -80,7 +80,6 @@ export const Benefits = () => {
 
               <div className="p-6 border-t border-r border-gray-200">
                 <div className="bg-[#3B8EFC14] border border-[#BCD7FF] rounded-md inline-block p-1 px-1.5 my-2">
-                  {/* <UserRound color="#3B8EFC" /> */}
                   <BenefitsGrowth />
                 </div>
                 <h4 className={`${romanFont.className} text-xl mb-2`}>
@@ -105,6 +104,11 @@ export const Benefits = () => {
                 </p>
               </div>
             </div>
+          </div>
+          <div className="border-x border-gray-200 pt-12 pb-20">
+            <button className="text-center bg-[#0D2727] hover:bg-[#0D2727]/96 transition-colors cursor-pointer text-white rounded-xs px-6 py-2 mx-auto flex ">
+              Book a free call
+            </button>
           </div>
         </div>
       </div>
