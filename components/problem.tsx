@@ -26,7 +26,7 @@ export const Problem = () => {
             >
               problems
             </h2>
-            <p className={`px-6 text-5xl ${romanFont.className} mt-3`}>
+            <p className={`px-6 text-5xl ${romanFont.className} mt-3 tracking-tight`}>
               Product building shouldn&apos;t be this complicated
             </p>
             <button className="mx-7 mt-8 text-center bg-[#0D2727] hover:bg-[#0D2727]/96 transition-colors cursor-pointer text-white rounded-xs px-6 py-2">

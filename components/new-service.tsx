@@ -13,7 +13,7 @@ export const NewService = () => {
                 Solutions
               </h2>
               <h1
-                className={`${romanFont.className} text-5xl text-center mt-1 mb-6`}
+                className={`${romanFont.className} text-5xl text-center tracking-tight mt-1 mb-6`}
               >
                 What we help you build
               </h1>

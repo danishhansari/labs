@@ -4,7 +4,7 @@ import { CircleCheck } from "lucide-react";
 export const NewPricing = () => {
   return (
     <>
-      <div className="bg-white py-14 text-[#040E0E]" id="pricing">
+      <div className="bg-white border-x border-b border-gray-200 py-14 text-[#040E0E]" id="pricing">
         <div className="relative px-4 sm:px-8 lg:px-16 border-y border-gray-200">
           <div className="relative border-x border-gray-200">
             <div className="absolute -top-1.5 -left-1.5 w-[101%]  flex justify-between">
@@ -321,7 +321,7 @@ export const NewPricing = () => {
           </div>
 
           <div className="relative px-4 sm:px-8 lg:px-16">
-            <div className="absolute -bottom-1 -left-1.5 w-[101%] flex justify-between pointer-events-none">
+            <div className="absolute -bottom-1 -left-1.5 md:w-[101%] flex justify-between pointer-events-none">
               <span className="w-2.5 h-2.5 rounded-full bg-white border border-gray-200 z-10" />
               <span className="w-2.5 h-2.5 rounded-full bg-white border border-gray-200 z-10" />
             </div>

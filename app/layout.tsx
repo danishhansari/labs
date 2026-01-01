@@ -21,7 +21,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#20808D" />
       </head>
       <body
-        className={`${inter.className} antialiased bg-[#040E0E] text-white min-h-screen`}
+        className={`${inter.className} antialiased text-white min-h-screen`}
       >
         {children}
       </body>
