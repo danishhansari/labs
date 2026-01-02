@@ -9,9 +9,9 @@ import {
 export const Faq = () => {
   return (
     <>
-      <div className="bg-white py-4 text-[#040E0E] border-gray-200">
-        <div className="relative px-4 sm:px-8 lg:px-16 border-y border-gray-200">
-          <div className="relative border-x border-gray-200">
+      <div className="bg-white text-[#040E0E] border-zinc-200">
+        <div className="relative px-4 sm:px-8 lg:px-16 border-y border-zinc-200">
+          <div className="relative border-x border-zinc-200">
             <div className="pt-12 border">
               <h2
                 className={`pt-2 text-center uppercase ${ibmPlexMono.className} text-sm text-[#14ABBA]`}
@@ -24,13 +24,13 @@ export const Faq = () => {
                 Frequently asked questions
               </h1>
             </div>
-            <div className="w-full md:w-[55%] mt-4 py-4 pb-8 mx-auto">
+            <div className="w-full md:w-[55%] mt-4 py-4 pb-14 mx-auto">
               <Accordion
-                className="border-b border-gray-200"
+                className="border-b border-zinc-200"
                 type="single"
                 collapsible
               >
-                <AccordionItem value="item-1 border-b border-gray-200">
+                <AccordionItem value="item-1 border-b border-zinc-200">
                   <AccordionTrigger>
                     What&apos;s the process for starting projects?
                   </AccordionTrigger>
@@ -41,7 +41,7 @@ export const Faq = () => {
                 </AccordionItem>
               </Accordion>
               <Accordion
-                className="border-b border-gray-200"
+                className="border-b border-zinc-200"
                 type="single"
                 collapsible
               >
@@ -56,7 +56,7 @@ export const Faq = () => {
                 </AccordionItem>
               </Accordion>
               <Accordion
-                className="border-b border-gray-200"
+                className="border-b border-zinc-200"
                 type="single"
                 collapsible
               >
@@ -69,7 +69,7 @@ export const Faq = () => {
                 </AccordionItem>
               </Accordion>
               <Accordion
-                className="border-b border-gray-200"
+                className="border-b border-zinc-200"
                 type="single"
                 collapsible
               >
@@ -84,7 +84,7 @@ export const Faq = () => {
                 </AccordionItem>
               </Accordion>
               <Accordion
-                className="border-b border-gray-200"
+                className="border-b border-zinc-200"
                 type="single"
                 collapsible
               >
@@ -99,7 +99,7 @@ export const Faq = () => {
                 </AccordionItem>
               </Accordion>
               <Accordion
-                className="border-b border-gray-200"
+                className="border-b border-zinc-200"
                 type="single"
                 collapsible
               >

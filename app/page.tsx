@@ -1,6 +1,7 @@
 import { Banner } from "@/components/banner";
 import { Benefits } from "@/components/benefits";
 import { Faq } from "@/components/faq";
+import { NewFooter } from "@/components/new-footer";
 import { NewHero } from "@/components/new-hero";
 import { NewNav } from "@/components/new-nav";
 import { NewPricing } from "@/components/new-pricing";
@@ -18,6 +19,7 @@ export default function Page() {
       <NewPricing />
       <Benefits />
       <Faq />
+      <NewFooter />
     </>
   );
 }

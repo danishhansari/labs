@@ -4,17 +4,20 @@ import { CircleCheck } from "lucide-react";
 export const NewPricing = () => {
   return (
     <>
-      <div className="bg-white border-x border-b border-gray-200 py-14 text-[#040E0E]" id="pricing">
-        <div className="relative px-4 sm:px-8 lg:px-16 border-y border-gray-200">
-          <div className="relative border-x border-gray-200">
+      <div
+        className="bg-white border-x border-b border-zinc-200 py-14 text-[#040E0E]"
+        id="pricing"
+      >
+        <div className="relative px-4 sm:px-8 lg:px-16 border-y border-zinc-200">
+          <div className="relative border-x border-zinc-200">
             <div className="absolute -top-1.5 -left-1.5 w-[101%]  flex justify-between">
-              <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-gray-200  z-10"></span>
-              <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-gray-200  z-10"></span>
+              <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
+              <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
             </div>
 
             <div className="absolute -bottom-1.5 -left-1.5 w-[101%]  flex justify-between">
-              <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-gray-200  z-10"></span>
-              <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-gray-200  z-10"></span>
+              <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
+              <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
             </div>
             <div>
               <h4
@@ -33,12 +36,12 @@ export const NewPricing = () => {
 
         <div
           className="relative px-4 sm:px-8 lg:px-16
-         border-b border-gray-200"
+         border-b border-zinc-200"
         >
-          <div className="border-x border-gray-200">
+          <div className="border-x border-zinc-200">
             <div className="flex">
-              <div className="p-5 border-r border-gray-200">
-                <div className="border-b border-gray-200">
+              <div className="p-5 border-r border-zinc-200">
+                <div className="border-b border-zinc-200">
                   <h4 className="text-lg font-medium">Launch Sprint</h4>
                   <div className="flex items-center gap-2 my-4">
                     <p className="text-[#2C6767] text-4xl">$499</p>
@@ -48,7 +51,7 @@ export const NewPricing = () => {
                     Early-stage founders, solo founders, or teams launching
                     their first product or idea.
                   </p>
-                  <button className="border border-gray-200 block w-full rounded-sm my-4 mb-6 text-sm py-1">
+                  <button className="border border-zinc-200 block w-full rounded-sm my-4 mb-6 text-sm py-1">
                     Get Started
                   </button>
                 </div>
@@ -129,7 +132,7 @@ export const NewPricing = () => {
                 </ul>
               </div>
 
-              <div className="p-5 border-r border-gray-200 bg-[#040E0E] text-white">
+              <div className="p-5 border-r border-zinc-200 bg-[#040E0E] text-white">
                 <div className="border-b border-[#EBEBEB]">
                   <div className="flex gap-2 items-center">
                     <h4 className="text-lg font-medium">Growth Sprint</h4>
@@ -146,7 +149,7 @@ export const NewPricing = () => {
                     Startups with a live product needing better UX, new
                     features, or stronger performance.
                   </p>
-                  <button className="border border-gray-200 block w-full rounded-sm my-4 mb-6 text-sm py-1 bg-white text-[#040E0E] ">
+                  <button className="border border-zinc-200 block w-full rounded-sm my-4 mb-6 text-sm py-1 bg-white text-[#040E0E] ">
                     Get Started
                   </button>
                 </div>
@@ -227,7 +230,7 @@ export const NewPricing = () => {
               </div>
 
               <div className="p-5">
-                <div className="border-b border-gray-200">
+                <div className="border-b border-zinc-200">
                   <h4 className="text-lg font-medium">
                     Product Partner Sprint
                   </h4>
@@ -238,7 +241,7 @@ export const NewPricing = () => {
                     Founders and teams who need a long-term product, design, and
                     development partner.
                   </p>
-                  <button className="border border-gray-200 block w-full rounded-sm my-4 mb-6 text-sm py-1">
+                  <button className="border border-zinc-200 block w-full rounded-sm my-4 mb-6 text-sm py-1">
                     Get Started
                   </button>
                 </div>
@@ -322,8 +325,8 @@ export const NewPricing = () => {
 
           <div className="relative px-4 sm:px-8 lg:px-16">
             <div className="absolute -bottom-1 -left-1.5 md:w-[101%] flex justify-between pointer-events-none">
-              <span className="w-2.5 h-2.5 rounded-full bg-white border border-gray-200 z-10" />
-              <span className="w-2.5 h-2.5 rounded-full bg-white border border-gray-200 z-10" />
+              <span className="w-2.5 h-2.5 rounded-full bg-white border border-zinc-200 z-10" />
+              <span className="w-2.5 h-2.5 rounded-full bg-white border border-zinc-200 z-10" />
             </div>
           </div>
         </div>

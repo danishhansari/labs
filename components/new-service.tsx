@@ -3,9 +3,9 @@ import { ibmPlexMono, romanFont } from "@/font";
 export const NewService = () => {
   return (
     <>
-      <div className="bg-white py-4 text-[#040E0E] border-gray-200">
-        <div className="relative px-4 sm:px-8 lg:px-16 border-y border-gray-200">
-          <div className="relative border-x border-gray-200">
+      <div className="bg-white py-4 text-[#040E0E] border-zinc-200">
+        <div className="relative px-4 sm:px-8 lg:px-16 border-y border-zinc-200">
+          <div className="relative border-x border-zinc-200">
             <div className="pt-12 border">
               <h2
                 className={`pt-2 text-center uppercase ${ibmPlexMono.className} text-sm text-[#14ABBA]`}
@@ -19,17 +19,17 @@ export const NewService = () => {
               </h1>
               <div className="relative">
                 <div className="absolute -top-1.5 -left-1.5 w-[101%]  flex justify-between">
-                  <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-gray-200  z-10"></span>
-                  <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-gray-200  z-10"></span>
+                  <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
+                  <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
                 </div>
 
                 <div className="absolute -bottom-1.5 -left-1.5 w-[101%]  flex justify-between">
-                  <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-gray-200  z-10"></span>
-                  <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-gray-200  z-10"></span>
+                  <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
+                  <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
                 </div>
 
                 <div className="flex">
-                  <div className="border border-gray-200 border-l-0 bg-[#fafafa]">
+                  <div className="border border-zinc-200 border-l-0 bg-[#fafafa]">
                     <div className="p-6 bg-white">
                       <h4
                         className={`${romanFont.className} font-medium text-xl`}
@@ -43,7 +43,7 @@ export const NewService = () => {
                     </div>
                     <div className="w-full h-[0vh]"></div>
                   </div>
-                  <div className="border border-gray-200 border-l-0 bg-[#fafafa]">
+                  <div className="border border-zinc-200 border-l-0 bg-[#fafafa]">
                     <div className="p-6 bg-white">
                       <h4
                         className={`${romanFont.className} font-medium text-xl`}
@@ -57,7 +57,7 @@ export const NewService = () => {
                     </div>
                     <div className="w-full h-[40vh]"></div>
                   </div>
-                  <div className=" border border-gray-200 border-x-0 bg-[#fafafa]">
+                  <div className=" border border-zinc-200 border-x-0 bg-[#fafafa]">
                     <div className="p-6 bg-white">
                       <h4
                         className={`${romanFont.className} font-medium text-xl`}
