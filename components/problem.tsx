@@ -6,7 +6,6 @@ import { Question } from "@/svg/question";
 import { SlowDevelopment } from "@/svg/slow-development";
 import { Timeline } from "@/svg/timeline";
 import { CircleAlert } from "lucide-react";
-import { Button } from "./ui/button";
 import { ForegroundButton } from "./ui/foreground-button";
 
 export const Problem = () => {
@@ -21,7 +20,7 @@ export const Problem = () => {
           <span className="w-2.5 h-2.5 rounded-full bg-white border border-zinc-200 ml-1 m z-10"></span>
           <span className="w-2.5 h-2.5 rounded-full bg-white border border-zinc-200 mr-1 z-10"></span>
         </div>
-        <div className="border-x border-zinc-200 flex gap-6 items-stretch">
+        <div className="border-x border-zinc-200 flex flex-col lg:flex-row gap-6 items-stretch">
           <div className="pt-5 w-full">
             <h2
               className={`px-6 text-[#FF5858] uppercase ${ibmPlexMono.className} text-base`}
@@ -90,7 +89,7 @@ export const Problem = () => {
               </li>{" "}
             </ul>
           </div>
-          <div className="bg-[#FAFAFA] w-full relative">
+          <div className="bg-[#FAFAFA] w-full relative h-[80vh] lg:h-auto">
             <p className="text-[#FF3333] flex text-xs gap-2 px-3 rounded-2xl py-1 border-[#FFC5C5] bg-[#FFF3F3] border items-center absolute -rotate-[30deg] top-32 left-1/2 -translate-1/2">
               <Marker />
               Design Without Strategy

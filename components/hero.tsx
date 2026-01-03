@@ -10,13 +10,13 @@ export const Hero = () => {
     <div className="relative px-4 sm:px-8 lg:px-24">
       <div className="px-8 py-5 border-x-[0.01px] pt-6 border-t-0 border-b">
         <p
-          className={`${romanFont.className} text-6xl text-center tracking-tight mt-8`}
+          className={`${romanFont.className} text-4xl lg:text-6xl text-center tracking-tight mt-8`}
         >
           Thoughtful design.
           <br />
           Reliable product execution.
         </p>
-        <p className="text-base text-[#849191] w-[55%] mt-4 mx-auto text-center">
+        <p className="text-sm lg:text-base text-[#849191] lg:w-[55%] mt-4 mx-auto text-center">
           From landing pages to full-scale apps, we partner with founders to
           turn ideas into reliable, scalable products without the usual delays.
         </p>

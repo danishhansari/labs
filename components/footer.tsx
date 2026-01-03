@@ -42,7 +42,6 @@ export const Footer = () => {
         <div className="flex items-center justify-center text-[#849191] gap-2.5">
           <Twitter size={18} />
           <Github size={18} />
-          <Instagram size={18} />
           <Linkedin size={18} />
         </div>
       </div>
