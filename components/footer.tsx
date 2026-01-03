@@ -16,6 +16,8 @@ export const Footer = () => {
           </h1>
           <div className="flex items-center justify-center pb-8 pt-2">
             <Button
+              data-cal-link="aurolabs/15min"
+              data-cal-config='{"theme":"light"}'
               size={"lg"}
               className="bg-[#14ABBA] hover:bg-[#14ABBA]/80 transition-colors text-white"
             >
@@ -29,7 +31,7 @@ export const Footer = () => {
           />
         </div>
       </div>
-      <div className="flex px-4 sm:px-8 lg:px-24 border-t py-4 items-center justify-between">
+      <div className="flex px-4 sm:px-8 lg:px-26 border-t py-4 items-center justify-between ">
         <a
           href="#"
           className="text-xl font-medium bg-linear-to-b from-[#41C4C6] to-white text-transparent bg-clip-text"

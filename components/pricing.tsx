@@ -1,5 +1,6 @@
 import { ibmPlexMono, romanFont } from "@/font";
 import { CircleCheck } from "lucide-react";
+import { Button } from "./ui/button";
 
 export const Pricing = () => {
   return (
@@ -51,12 +52,17 @@ export const Pricing = () => {
                     Early-stage founders, solo founders, or teams launching
                     their first product or idea.
                   </p>
-                  <button className="border border-zinc-200 block w-full rounded-sm my-4 mb-6 text-sm py-1">
+                  <Button
+                    className="mb-6 my-5 block w-full rounded-sm border border-zinc-200
+                    text-sm hover:bg-gray-100 hover:text-black"
+                    variant={"ghost"}
+                    size={"icon-sm"}
+                  >
                     Get Started
-                  </button>
+                  </Button>
                 </div>
 
-                <ul className="text-xs mt-4 flex flex-col gap-2">
+                <ul className="text-xs mt-5 flex flex-col gap-2">
                   <li className="flex items-center gap-1.5">
                     <CircleCheck
                       fill="green"
@@ -133,7 +139,7 @@ export const Pricing = () => {
               </div>
 
               <div className="p-5 border-r border-zinc-200 bg-[#040E0E] text-white">
-                <div className="border-b border-[#EBEBEB]">
+                <div className="border-b border-zinc-600 ">
                   <div className="flex gap-2 items-center">
                     <h4 className="text-lg font-medium">Growth Sprint</h4>
                     <p className="text-[#14ABBA] px-1.5 py-0.5 rounded-xl bg-[#14ABBA1F] text-xs font-medium">
@@ -149,11 +155,14 @@ export const Pricing = () => {
                     Startups with a live product needing better UX, new
                     features, or stronger performance.
                   </p>
-                  <button className="border border-zinc-200 block w-full rounded-sm my-4 mb-6 text-sm py-1 bg-white text-[#040E0E] ">
+                  <Button
+                    className="my-4 mb-5 block w-full rounded-sm text-sm hover:bg-gray-100 hover:text-black bg-white"
+                    size={"icon-sm"}
+                  >
                     Get Started
-                  </button>
+                  </Button>
                 </div>
-                <ul className="text-xs mt-4 flex flex-col gap-2">
+                <ul className="text-xs mt-5 flex flex-col gap-2">
                   <li className="flex items-center gap-1.5">
                     <CircleCheck
                       fill="#188D60"
@@ -241,11 +250,16 @@ export const Pricing = () => {
                     Founders and teams who need a long-term product, design, and
                     development partner.
                   </p>
-                  <button className="border border-zinc-200 block w-full rounded-sm my-4 mb-6 text-sm py-1">
+                  <Button
+                    className="mb-6 my-5 block w-full rounded-sm border border-zinc-200
+                    text-sm hover:bg-gray-100 hover:text-black"
+                    variant={"ghost"}
+                    size={"icon-sm"}
+                  >
                     Get Started
-                  </button>
+                  </Button>
                 </div>
-                <ul className="text-xs mt-4 flex flex-col gap-2">
+                <ul className="text-xs mt-5 flex flex-col gap-2">
                   <li className="flex items-center gap-1.5">
                     <CircleCheck
                       fill="green"

@@ -1,10 +1,14 @@
 import { ibmPlexMono, romanFont } from "@/font";
 import { Button } from "./ui/button";
+import { ForegroundButton } from "./ui/foreground-button";
 
 export const Service = () => {
   return (
     <>
-      <div className="bg-white py-4 text-[#040E0E] border-zinc-200">
+      <div
+        className="bg-white py-4 text-[#040E0E] border-zinc-200"
+        id="services"
+      >
         <div className="relative px-4 sm:px-8 lg:px-24 border-y border-zinc-200">
           <div className="relative border-x border-zinc-200">
             <div className="pt-12 border">
@@ -74,12 +78,7 @@ export const Service = () => {
                   </div>
                 </div>
               </div>
-              <Button
-                size={"lg"}
-                className="text-center bg-[#0D2727] hover:bg-[#0D2727]/96 transition-colors cursor-pointer text-white rounded-xs px-6 py-2 mx-auto flex mt-8 mb-16"
-              >
-                Book a free call
-              </Button>
+              <ForegroundButton className="px-6 py-2 mx-auto flex mt-12 mb-16 text-center" />
             </div>
           </div>
         </div>

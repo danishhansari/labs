@@ -47,7 +47,13 @@ export const Nav = () => {
               ))}
             </ul>
           </div>
-          <Button variant={"outline"}>Book a call</Button>
+          <Button
+            data-cal-link="aurolabs/15min"
+            data-cal-config='{"theme":"light"}'
+            variant={"outline"}
+          >
+            Book a call
+          </Button>
         </nav>
       </div>
     </div>

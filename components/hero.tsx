@@ -23,6 +23,8 @@ export const Hero = () => {
         <div className="flex items-center gap-4 justify-center mt-8">
           <Button
             size={"lg"}
+            data-cal-link="aurolabs/15min"
+            data-cal-config='{"theme":"light"}'
             className="bg-[#14ABBA] hover:bg-[#14ABBA]/80 transition-colors text-white"
           >
             Book a free call <Play size={10} fill="white" />

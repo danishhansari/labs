@@ -3,6 +3,7 @@ import { BenefitsGrowth } from "@/svg/benefits-growth";
 import { Target } from "@/svg/target";
 import { Brain, MessageSquareDot, UserRound, Zap } from "lucide-react";
 import { Button } from "./ui/button";
+import { ForegroundButton } from "./ui/foreground-button";
 
 export const Benefits = () => {
   return (
@@ -106,13 +107,8 @@ export const Benefits = () => {
               </div>
             </div>
           </div>
-          <div className="border-x border-zinc-200 pt-12 pb-20">
-            <Button
-              size={"lg"}
-              className="text-center bg-[#0D2727] hover:bg-[#0D2727]/96 transition-colors cursor-pointer text-white rounded-xs px-6 py-2 mx-auto flex mt-8 mb-16"
-            >
-              Book a free call
-            </Button>
+          <div className="border-x border-zinc-200 pt-8 pb-12">
+            <ForegroundButton className="px-6 py-2 mx-auto flex mt-8 mb-8" />
           </div>
         </div>
       </div>
