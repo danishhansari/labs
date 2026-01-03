@@ -7,7 +7,7 @@ import { Button } from "./ui/button";
 
 export const Hero = () => {
   return (
-    <div className="relative px-4 sm:px-8 lg:px-24">
+    <div className="relative px-4 sm:px-8 lg:px-20">
       <div className="px-8 py-5 border-x-[0.01px] pt-6 border-t-0 border-b">
         <p
           className={`${romanFont.className} text-4xl lg:text-6xl text-center tracking-tight mt-8`}
