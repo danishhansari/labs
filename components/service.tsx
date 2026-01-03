@@ -9,7 +9,7 @@ export const Service = () => {
         className="bg-white py-4 text-[#040E0E] border-zinc-200"
         id="services"
       >
-        <div className="relative px-4 sm:px-8 lg:px-20 border-y border-zinc-200">
+        <div className="relative px-4 sm:px-8 lg:px-18 border-y border-zinc-200">
           <div className="relative border-x border-zinc-200">
             <div className="pt-12 border">
               <h2

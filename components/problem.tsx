@@ -11,12 +11,12 @@ import { ForegroundButton } from "./ui/foreground-button";
 export const Problem = () => {
   return (
     <div className="bg-white py-14 text-[#040E0E]">
-      <div className="relative px-4 sm:px-8 lg:px-20 border-y border-zinc-200">
-        <div className="absolute left-0 -top-1 w-full flex justify-between px-3 sm:px-6 lg:px-18">
+      <div className="relative px-4 sm:px-8 lg:px-18 border-y border-zinc-200">
+        <div className="absolute left-0 -top-1 w-full flex justify-between px-3 sm:px-6 lg:px-16">
           <span className="w-2.5 h-2.5 rounded-full bg-white border border-zinc-200 ml-1 m z-10"></span>
           <span className="w-2.5 h-2.5 rounded-full bg-white border border-zinc-200 mr-1 z-10"></span>
         </div>
-        <div className="absolute left-0 -bottom-1 w-full flex justify-between px-3 sm:px-6 lg:px-18">
+        <div className="absolute left-0 -bottom-1 w-full flex justify-between px-3 sm:px-6 lg:px-16">
           <span className="w-2.5 h-2.5 rounded-full bg-white border border-zinc-200 ml-1 m z-10"></span>
           <span className="w-2.5 h-2.5 rounded-full bg-white border border-zinc-200 mr-1 z-10"></span>
         </div>
