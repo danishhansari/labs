@@ -27,7 +27,7 @@ export const Benefits = () => {
             >
               Why teams choose AuroLabs
             </h2>
-            <div className="grid grid-cols-3 border-b border-zinc-200">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-b border-zinc-200">
               <div className="p-6 border-t border-r border-zinc-200">
                 <div className="bg-[#3B8EFC14] border border-[#BCD7FF] rounded-md inline-block p-1 px-1.5 my-2">
                   <UserRound color="#3B8EFC" size={27} />

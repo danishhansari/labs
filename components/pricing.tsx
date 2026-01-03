@@ -36,12 +36,12 @@ export const Pricing = () => {
         </div>
 
         <div
-          className="relative px-4 sm:px-8 lg:px-20
+          className="relative px-4 sm:px-8 lg:px-18
          border-b border-zinc-200"
         >
           <div className="border-x border-zinc-200">
-            <div className="flex">
-              <div className="p-5 border-r border-zinc-200">
+            <div className="flex flex-col md:flex-row">
+              <div className="p-5 md:border-r border-zinc-200">
                 <div className="border-b border-zinc-200">
                   <h4 className="text-lg font-medium">Launch Sprint</h4>
                   <div className="flex items-center gap-2 my-4">
@@ -140,7 +140,7 @@ export const Pricing = () => {
                 </ul>
               </div>
 
-              <div className="p-5 border-r border-zinc-200 bg-[#040E0E] text-white">
+              <div className="p-5 md:border-r border-zinc-200 bg-[#040E0E] text-white">
                 <div className="border-b border-zinc-600 ">
                   <div className="flex gap-2.5 items-center">
                     <h4 className="text-lg font-medium">Growth Sprint</h4>

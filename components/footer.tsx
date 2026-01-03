@@ -10,9 +10,11 @@ export const Footer = () => {
       <div className="text-white px-4 sm:px-8 lg:px-20 bg-[#040E0E]">
         <div className="relative border-x border-zinc-800">
           <h1
-            className={`${romanFont.className} pt-16 pb-4 tracking-tight text-5xl w-[45%] mx-auto text-center`}
+            className={`${romanFont.className} pt-16 pb-4 tracking-tight text-5xl mx-auto text-center`}
           >
-            Got something in mind? Let&apos;s talk it through
+            Got something in mind? 
+            
+            Let&apos;s talk it through
           </h1>
           <div className="flex items-center justify-center pb-8 pt-2">
             <Button
