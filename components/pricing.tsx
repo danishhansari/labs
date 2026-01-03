@@ -156,7 +156,7 @@ export const Pricing = () => {
                     features, or stronger performance.
                   </p>
                   <Button
-                    className="my-4 mb-5 block w-full rounded-sm text-sm hover:bg-gray-100 hover:text-black bg-white"
+                    className="my-5 block w-full rounded-sm text-sm hover:bg-gray-100 hover:text-black bg-white"
                     size={"icon-sm"}
                   >
                     Get Started
