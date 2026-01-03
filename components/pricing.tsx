@@ -57,6 +57,8 @@ export const Pricing = () => {
                     text-sm hover:bg-gray-100 hover:text-black"
                     variant={"ghost"}
                     size={"icon-sm"}
+                    data-cal-link="aurolabs/15min"
+                    data-cal-config='{"theme":"light"}'
                   >
                     Get Started
                   </Button>
@@ -140,9 +142,9 @@ export const Pricing = () => {
 
               <div className="p-5 border-r border-zinc-200 bg-[#040E0E] text-white">
                 <div className="border-b border-zinc-600 ">
-                  <div className="flex gap-2 items-center">
+                  <div className="flex gap-2.5 items-center">
                     <h4 className="text-lg font-medium">Growth Sprint</h4>
-                    <p className="text-[#14ABBA] px-1.5 py-0.5 rounded-xl bg-[#14ABBA1F] text-xs font-medium">
+                    <p className="text-[#14ABBA] px-1.5 py-0.5 rounded-xl bg-[#14ABBA1F] text-[11px] font-medium">
                       Most Popular
                     </p>
                   </div>
@@ -158,6 +160,8 @@ export const Pricing = () => {
                   <Button
                     className="my-5 block w-full rounded-sm text-sm hover:bg-gray-100 hover:text-black bg-white"
                     size={"icon-sm"}
+                    data-cal-link="aurolabs/15min"
+                    data-cal-config='{"theme":"light"}'
                   >
                     Get Started
                   </Button>
@@ -255,6 +259,8 @@ export const Pricing = () => {
                     text-sm hover:bg-gray-100 hover:text-black"
                     variant={"ghost"}
                     size={"icon-sm"}
+                    data-cal-link="aurolabs/15min"
+                    data-cal-config='{"theme":"light"}'
                   >
                     Get Started
                   </Button>
