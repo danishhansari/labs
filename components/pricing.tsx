@@ -1,133 +1,334 @@
-import { Check } from "lucide-react";
-import { Button } from "./ui/button";
+import { ibmPlexMono, romanFont } from "@/font";
+import { CircleCheck } from "lucide-react";
 
 export const Pricing = () => {
   return (
-    <div>
-      <section className="flex gap-4 flex-col px-4 md:flex-row items-stretch max-w-6xl mx-auto text-sm justify-around">
-        <Card
-          cta="Launch My Product"
-          title="Founders & startups who need speed without shortcuts"
-          outcome="You'll walk away with a fully launched, conversion-ready website
-          or MVP"
-          guarantee="If we
-          miss the deadline, you get 10% off, no questions asked."
-          plan="Launch Sprint"
-          postOutcome="This is not a draft. This is launch-ready."
-          deliveryTime="Delivered in 10–14 days"
-          promise={[
-            "Product & conversion strategy session",
-            "UI/UX design tailored to your audience",
-            "Fully responsive website or MVP build",
-            "Core integrations (forms, analytics, basic APIs)",
-            "QA testing & launch support",
-          ]}
-          price="$999"
-        />
-
-        <Card
-          cta="Scale my product"
-          title="Best for Startups and teams ready to scale traffic, users, or revenue"
-          outcome="A scalable web or mobile product built to handle growth, performance, and real users."
-          guarantee="Not happy with the result? We revise until it meets the agreed outcome."
-          plan="Growth Sprint"
-          postOutcome="More than features — a product built to grow."
-          deliveryTime="Delivered in 3–4 weeks"
-          promise={[
-            "Product roadmap & technical architecture",
-            "Full website or mobile app development",
-            "Backend systems & API integrations",
-            "Performance optimization & security best practices",
-            "Deployment + post-launch support",
-          ]}
-          price="$1599"
-          planCol="bg-[#a7a4dc]"
-        />
-
-        <Card
-          cta="Talk to us"
-          title="Best for Complex products, startups, and enterprises needing long-term execution"
-          outcome="A custom digital product delivered in sprints—aligned with business goals, low debt, built to scale."
-          guarantee="Transparent milestones. Pay only for completed, approved work."
-          plan="Product Partner Sprint"
-          postOutcome="We work as your extended product team."
-          deliveryTime="Custom roadmap"
-          promise={[
-            "Clear scope & success metrics",
-            "Fixed timelines — no endless delays",
-            "Direct communication with builders",
-            "Production-ready code",
-            "Post-launch support",
-          ]}
-          price="Custom Pricing"
-          planCol="bg-[#dcd5a4]"
-        />
-      </section>
-    </div>
-  );
-};
-
-const Card = ({
-  plan,
-  title,
-  outcome,
-  guarantee,
-  cta,
-  promise,
-  postOutcome,
-  deliveryTime,
-  price,
-  planCol,
-}: {
-  plan: string;
-  title: string;
-  outcome: string;
-  guarantee: string;
-  cta: string;
-  promise: Array<string>;
-  postOutcome: string;
-  deliveryTime: string;
-  price?: string;
-  planCol?: string;
-}) => {
-  return (
     <>
-      <div className="p-6 rounded-4xl bg-black/50 border" id="pricing">
-        <button
-          className={`rounded-4xl py-1 border px-4 ${
-            planCol ? planCol : "bg-[#BADEDD]"
-          }  text-zinc-800`}
-          disabled
-        >
-          {plan}
-        </button>
-        <p className="text-3xl font-semibold italic mt-4">{price}</p>
-        <p className="text-zinc-400 text-sm font-thin my-5">{title}</p>
-        <p className="my-1">
-          <span className="font-semibold tracking-wide">Outcome:</span>{" "}
-          {outcome}
-        </p>
-        <p className="text-zinc-400 my-3">
-          {postOutcome}
-          <br />
-          {deliveryTime}
-        </p>
-        <p className="my-4">
-          <span className="font-semibold tracking-wide">Guarantee:</span>{" "}
-          {guarantee}
-        </p>
-        <button className="block w-full rounded-4xl text-md py-3 bg-white hover:bg-gray-200 transition-colors my-4 text-black">
-          {cta}
-        </button>
-
-        <p className="text-md font-semibold mt-4 mb-2">You get:</p>
-        <div className="pl-4 space-y-2 text-sm text-muted-foreground">
-          {promise.map((item, index) => (
-            <div key={index} className="flex items-start gap-2">
-              <Check size={15} className="shrink-0" />
-              <span>{item}</span>
+      <div
+        className="bg-white border-x border-b border-zinc-200 py-14 text-[#040E0E]"
+        id="pricing"
+      >
+        <div className="relative px-4 sm:px-8 lg:px-16 border-y border-zinc-200">
+          <div className="relative border-x border-zinc-200">
+            <div className="absolute -top-1.5 -left-1.5 w-[101%]  flex justify-between">
+              <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
+              <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
             </div>
-          ))}
+
+            <div className="absolute -bottom-1.5 -left-1.5 w-[101%]  flex justify-between">
+              <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
+              <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
+            </div>
+            <div>
+              <h4
+                className={`pt-6 text-center font-semibold uppercase ${ibmPlexMono.className} text-sm text-[#14ABBA]`}
+              >
+                pricing
+              </h4>
+              <h2
+                className={`${romanFont.className} tracking-tight text-5xl text-center mt-1 pb-16`}
+              >
+                Clear pricing for every stage of your journey
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div
+          className="relative px-4 sm:px-8 lg:px-16
+         border-b border-zinc-200"
+        >
+          <div className="border-x border-zinc-200">
+            <div className="flex">
+              <div className="p-5 border-r border-zinc-200">
+                <div className="border-b border-zinc-200">
+                  <h4 className="text-lg font-medium">Launch Sprint</h4>
+                  <div className="flex items-center gap-2 my-4">
+                    <p className="text-[#2C6767] text-4xl">$499</p>
+                    <p className="text-[#676C6C] text-sm">/ months</p>
+                  </div>
+                  <p className="text-sm text-[#676C6C] my-2">
+                    Early-stage founders, solo founders, or teams launching
+                    their first product or idea.
+                  </p>
+                  <button className="border border-zinc-200 block w-full rounded-sm my-4 mb-6 text-sm py-1">
+                    Get Started
+                  </button>
+                </div>
+
+                <ul className="text-xs mt-4 flex flex-col gap-2">
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="green"
+                      className="inline-block"
+                      color="white"
+                      size={18}
+                    />
+                    UX strategy & scope definition
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="green"
+                      className="inline-block"
+                      color="white"
+                      size={18}
+                    />
+                    UI/UX design for core screens or landing page
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="green"
+                      className="inline-block"
+                      color="white"
+                      size={18}
+                    />
+                    Responsive website or MVP build
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="green"
+                      className="inline-block"
+                      color="white"
+                      size={18}
+                    />
+                    Basic SEO & performance setup
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="green"
+                      className="inline-block"
+                      color="white"
+                      size={18}
+                    />
+                    Contact forms / lead capture
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="green"
+                      className="inline-block"
+                      color="white"
+                      size={18}
+                    />
+                    Analytics setup
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="green"
+                      className="inline-block"
+                      color="white"
+                      size={18}
+                    />
+                    Testing & launch support
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="green"
+                      className="inline-block"
+                      color="white"
+                      size={18}
+                    />
+                    2–3 weeks
+                  </li>
+                </ul>
+              </div>
+
+              <div className="p-5 border-r border-zinc-200 bg-[#040E0E] text-white">
+                <div className="border-b border-[#EBEBEB]">
+                  <div className="flex gap-2 items-center">
+                    <h4 className="text-lg font-medium">Growth Sprint</h4>
+                    <p className="text-[#14ABBA] px-1.5 py-0.5 rounded-xl bg-[#14ABBA1F] text-xs font-medium">
+                      Most Popular
+                    </p>
+                  </div>
+
+                  <div className="flex items-center gap-2 my-4">
+                    <p className="text-4xl">$999</p>
+                    <p className="text-[#676C6C] text-sm">/ months</p>
+                  </div>
+                  <p className="text-sm text-[#849191] my-2">
+                    Startups with a live product needing better UX, new
+                    features, or stronger performance.
+                  </p>
+                  <button className="border border-zinc-200 block w-full rounded-sm my-4 mb-6 text-sm py-1 bg-white text-[#040E0E] ">
+                    Get Started
+                  </button>
+                </div>
+                <ul className="text-xs mt-4 flex flex-col gap-2">
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="#188D60"
+                      className="inline-block"
+                      color="#040E0E"
+                      size={18}
+                    />
+                    UX audit of existing product or website
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="#188D60"
+                      className="inline-block"
+                      color="#040E0E"
+                      size={18}
+                    />
+                    UX improvements & flow optimization
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="#188D60"
+                      className="inline-block"
+                      color="#040E0E"
+                      size={18}
+                    />
+                    UI redesign for key journeys
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="#188D60"
+                      className="inline-block"
+                      color="#040E0E"
+                      size={18}
+                    />
+                    Feature design & development
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="#188D60"
+                      className="inline-block"
+                      color="#040E0E"
+                      size={18}
+                    />
+                    Performance & responsiveness improvements
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="#188D60"
+                      className="inline-block"
+                      color="#040E0E"
+                      size={18}
+                    />
+                    Conversion-focused updates
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="#188D60"
+                      className="inline-block"
+                      color="#040E0E"
+                      size={18}
+                    />
+                    QA testing & refinements
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="#188D60"
+                      className="inline-block"
+                      color="#040E0E"
+                      size={18}
+                    />
+                    3–5 weeks
+                  </li>
+                </ul>
+              </div>
+
+              <div className="p-5">
+                <div className="border-b border-zinc-200">
+                  <h4 className="text-lg font-medium">
+                    Product Partner Sprint
+                  </h4>
+                  <div className="flex items-center gap-2 my-4">
+                    <p className="text-4xl">Custom Plan</p>
+                  </div>
+                  <p className="text-sm text-[#676C6C] my-2">
+                    Founders and teams who need a long-term product, design, and
+                    development partner.
+                  </p>
+                  <button className="border border-zinc-200 block w-full rounded-sm my-4 mb-6 text-sm py-1">
+                    Get Started
+                  </button>
+                </div>
+                <ul className="text-xs mt-4 flex flex-col gap-2">
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="green"
+                      className="inline-block"
+                      color="white"
+                      size={18}
+                    />
+                    Product strategy & roadmap planning
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="green"
+                      className="inline-block"
+                      color="white"
+                      size={18}
+                    />
+                    Continuous UI/UX design support
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="green"
+                      className="inline-block"
+                      color="white"
+                      size={18}
+                    />
+                    Frontend & backend development
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="green"
+                      className="inline-block"
+                      color="white"
+                      size={18}
+                    />
+                    Feature rollouts & iterations
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="green"
+                      className="inline-block"
+                      color="white"
+                      size={18}
+                    />
+                    Regular reviews & priority planning
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="green"
+                      className="inline-block"
+                      color="white"
+                      size={18}
+                    />
+                    Ongoing testing & optimizations
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="green"
+                      className="inline-block"
+                      color="white"
+                      size={18}
+                    />
+                    Monthly or quarterly partnership
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <CircleCheck
+                      fill="green"
+                      className="inline-block"
+                      color="white"
+                      size={18}
+                    />
+                    Unlimited Revisions
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="relative px-4 sm:px-8 lg:px-16">
+            <div className="absolute -bottom-1 -left-1.5 md:w-[101%] flex justify-between pointer-events-none">
+              <span className="w-2.5 h-2.5 rounded-full bg-white border border-zinc-200 z-10" />
+              <span className="w-2.5 h-2.5 rounded-full bg-white border border-zinc-200 z-10" />
+            </div>
+          </div>
         </div>
       </div>
     </>

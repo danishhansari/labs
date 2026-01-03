@@ -1,19 +1,13 @@
 "use client";
-import { Button } from "@/components/ui/button";
-import {
-  Navbar,
-  NavBody,
-  NavItems,
-  MobileNav,
-  NavbarLogo,
-  MobileNavHeader,
-  MobileNavToggle,
-  MobileNavMenu,
-} from "@/components/ui/resizable-navbar";
 import { useState } from "react";
+import { Button } from "./ui/button";
 
 export const Nav = () => {
   const navItems = [
+    {
+      name: "Work",
+      link: "#work",
+    },
     {
       name: "Services",
       link: "#services",
@@ -23,67 +17,39 @@ export const Nav = () => {
       link: "#pricing",
     },
     {
-      name: "FAQs",
-      link: "#faqs",
+      name: "Process",
+      link: "#process",
     },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return (
-    <div className="mt-3">
-      <Navbar className="max-w-5xl mx-auto fixed top-2 lg:top-4">
-        <NavBody>
-          <NavbarLogo />
-          <NavItems items={navItems} />
-          <div className="flex items-center gap-4">
-            <Button
-              className="bg-[#20808D] hover:bg-[#1FB8CD] border text-[#FBFAF4] w-full md:flex-0 z-10 rounded-full"
-              variant={"default"}
-              data-cal-link="aurolabs/15min"
-              data-cal-config='{"theme":"dark"}'
+    <div className="relative border-b px-4 sm:px-8 lg:px-16">
+      <div className="absolute -bottom-1 left-0 w-full flex justify-between px-4 sm:px-6 lg:px-14">
+        <span className="w-2.5 h-2.5 rounded-full bg-[#040E0E] border ml-1 z-10"></span>
+        <span className="w-2.5 h-2.5 rounded-full bg-[#040E0E] border mr-1 z-10"></span>
+      </div>
+      <div className="px-8 py-5 border-x-[0.01px] border-t-0 ">
+        <nav className="flex items-center justify-between">
+          <div className="flex items-center gap-12 text-">
+            <a
+              href="#"
+              className="text-2xl font-medium bg-linear-to-b from-[#41C4C6] to-white text-transparent bg-clip-text"
             >
-              Book a Quick call
-            </Button>
+              AuroLabs
+            </a>
+
+            <ul className="flex gap-6 mt-0.5">
+              {navItems.map((item) => (
+                <li key={item.name} className="text-xs">
+                  <a href={item.link}>{item.name}</a>
+                </li>
+              ))}
+            </ul>
           </div>
-        </NavBody>
-
-        <MobileNav>
-          <MobileNavHeader>
-            <NavbarLogo />
-            <MobileNavToggle
-              isOpen={isMobileMenuOpen}
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            />
-          </MobileNavHeader>
-
-          <MobileNavMenu
-            isOpen={isMobileMenuOpen}
-            onClose={() => setIsMobileMenuOpen(false)}
-          >
-            {navItems.map((item, idx) => (
-              <a
-                key={`mobile-link-${idx}`}
-                href={item.link}
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="relative text-[#96AAAE] dark:text-black"
-              >
-                <span className="block">{item.name}</span>
-              </a>
-            ))}
-            <div className="flex w-full flex-col gap-4">
-              <Button
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="bg-[#20808D] border-none hover:bg-[#1FB8CD] w-full md:flex-0"
-                variant={"default"}
-                data-cal-link="aurolabs"
-                data-cal-config='{"theme":"dark"}'
-              >
-                Book a Quick call
-              </Button>
-            </div>
-          </MobileNavMenu>
-        </MobileNav>
-      </Navbar>
+          <Button variant={"outline"}>Book a call</Button>
+        </nav>
+      </div>
     </div>
   );
 };

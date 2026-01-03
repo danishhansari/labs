@@ -6,6 +6,7 @@ import { Question } from "@/svg/question";
 import { SlowDevelopment } from "@/svg/slow-development";
 import { Timeline } from "@/svg/timeline";
 import { Calendar1, CircleAlert } from "lucide-react";
+import { Button } from "./ui/button";
 
 export const Problem = () => {
   return (
@@ -31,9 +32,9 @@ export const Problem = () => {
             >
               Product building shouldn&apos;t be this complicated
             </p>
-            <button className="mx-7 mt-8 text-center bg-[#0D2727] hover:bg-[#0D2727]/96 transition-colors cursor-pointer text-white rounded-xs px-6 py-2">
+            <Button className="mx-7 mt-8 bg-[#0D2727] hover:bg-[#0D2727]/96 text-white transition-colors cursor-pointer" size={'lg'}>
               Book a free call
-            </button>
+            </Button>
 
             <ul className="mt-12">
               <li className="flex items-center gap-3 border-b border-zinc-200 py-4 px-8">

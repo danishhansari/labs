@@ -1,25 +1,25 @@
 import { Banner } from "@/components/banner";
 import { Benefits } from "@/components/benefits";
 import { Faq } from "@/components/faq";
-import { NewFooter } from "@/components/new-footer";
-import { NewHero } from "@/components/new-hero";
-import { NewNav } from "@/components/new-nav";
-import { NewPricing } from "@/components/new-pricing";
-import { NewService } from "@/components/new-service";
+import { Footer } from "@/components/footer";
+import { Hero } from "@/components/hero";
+import { Nav } from "@/components/nav";
+import { Pricing } from "@/components/pricing";
+import { Service } from "@/components/service";
 import { Problem } from "@/components/problem";
 
 export default function Page() {
   return (
     <>
-      <NewNav />
+      <Nav />
       <Banner />
-      <NewHero />
+      <Hero />
       <Problem />
-      <NewService />
-      <NewPricing />
+      <Service />
+      <Pricing />
       <Benefits />
       <Faq />
-      <NewFooter />
+      <Footer />
     </>
   );
 }

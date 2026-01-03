@@ -1,6 +1,7 @@
 import { ibmPlexMono, romanFont } from "@/font";
+import { Button } from "./ui/button";
 
-export const NewService = () => {
+export const Service = () => {
   return (
     <>
       <div className="bg-white py-4 text-[#040E0E] border-zinc-200">
@@ -73,9 +74,12 @@ export const NewService = () => {
                   </div>
                 </div>
               </div>
-              <button className="text-center bg-[#0D2727] hover:bg-[#0D2727]/96 transition-colors cursor-pointer text-white rounded-xs px-6 py-2 mx-auto flex mt-8 mb-16">
+              <Button
+                size={"lg"}
+                className="text-center bg-[#0D2727] hover:bg-[#0D2727]/96 transition-colors cursor-pointer text-white rounded-xs px-6 py-2 mx-auto flex mt-8 mb-16"
+              >
                 Book a free call
-              </button>
+              </Button>
             </div>
           </div>
         </div>
