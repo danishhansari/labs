@@ -31,7 +31,7 @@ export const Footer = () => {
           />
         </div>
       </div>
-      <div className="flex px-4 sm:px-8 lg:px-26 border-t py-4 items-center justify-between ">
+      <div className="flex px-4 sm:px-8 lg:px-22 border-t py-4 items-center justify-between ">
         <a
           href="#"
           className="text-xl font-medium bg-linear-to-b from-[#41C4C6] to-white text-transparent bg-clip-text"
