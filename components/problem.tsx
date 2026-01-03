@@ -11,12 +11,12 @@ import { Button } from "./ui/button";
 export const Problem = () => {
   return (
     <div className="bg-white py-14 text-[#040E0E]">
-      <div className="relative px-4 sm:px-8 lg:px-16 border-y border-zinc-200">
-        <div className="absolute left-0 -top-1 w-full flex justify-between px-3 sm:px-6 lg:px-14">
+      <div className="relative px-4 sm:px-8 lg:px-24 border-y border-zinc-200">
+        <div className="absolute left-0 -top-1 w-full flex justify-between px-3 sm:px-6 lg:px-22">
           <span className="w-2.5 h-2.5 rounded-full bg-white border border-zinc-200 ml-1 m z-10"></span>
           <span className="w-2.5 h-2.5 rounded-full bg-white border border-zinc-200 mr-1 z-10"></span>
         </div>
-        <div className="absolute left-0 -bottom-1 w-full flex justify-between px-3 sm:px-6 lg:px-14">
+        <div className="absolute left-0 -bottom-1 w-full flex justify-between px-3 sm:px-6 lg:px-22">
           <span className="w-2.5 h-2.5 rounded-full bg-white border border-zinc-200 ml-1 m z-10"></span>
           <span className="w-2.5 h-2.5 rounded-full bg-white border border-zinc-200 mr-1 z-10"></span>
         </div>
@@ -28,11 +28,14 @@ export const Problem = () => {
               problems
             </h2>
             <p
-              className={`px-6 text-5xl ${romanFont.className} mt-3 tracking-tight`}
+              className={`px-4 pl-6 text-5xl ${romanFont.className} mt-3 tracking-tight`}
             >
               Product building shouldn&apos;t be this complicated
             </p>
-            <Button className="mx-7 mt-8 bg-[#0D2727] hover:bg-[#0D2727]/96 text-white transition-colors cursor-pointer" size={'lg'}>
+            <Button
+              className="mx-7 mt-8 bg-[#0D2727] hover:bg-[#0D2727]/96 text-white transition-colors cursor-pointer"
+              size={"lg"}
+            >
               Book a free call
             </Button>
 
@@ -96,19 +99,19 @@ export const Problem = () => {
               <Marker />
               Design Without Strategy
             </p>
-            <p className="text-[#FF3333] flex text-xs gap-2 px-3 rounded-2xl py-1 border-[#FFC5C5] bg-[#FFF3F3] border absolute items-center bottom-26 left-28">
+            <p className="text-[#FF3333] flex text-xs gap-2 px-3 rounded-2xl py-1 border-[#FFC5C5] bg-[#FFF3F3] border absolute items-center bottom-28 left-28">
               <Timeline />
               Unpredictable Timelines
             </p>
-            <p className="text-[#FF3333] flex text-xs items-center gap-2 px-3 rounded-2xl py-1 border-[#FFC5C5] bg-[#FFF3F3] border absolute bottom-20 right-12 rotate-[30deg]">
+            <p className="text-[#FF3333] flex text-xs items-center gap-2 px-3 rounded-2xl py-1 border-[#FFC5C5] bg-[#FFF3F3] border absolute bottom-24 right-12 rotate-[30deg]">
               <SlowDevelopment />
               Slow Development Cycles
             </p>
-            <p className="text-[#FF3333] flex text-xs gap-2 px-3 rounded-2xl py-1 border-[#FFC5C5] bg-[#FFF3F3] border absolute bottom-14 right-40 items-center">
+            <p className="text-[#FF3333] flex text-xs gap-2 px-3 rounded-2xl py-1 border-[#FFC5C5] bg-[#FFF3F3] border absolute bottom-14 right-34 items-center">
               <OverbuiltMvp />
               Overbuilt MVPs
             </p>
-            <p className="text-[#FF3333] flex text-xs gap-1 px-3 rounded-2xl py-1.5 border-[#FFC5C5] bg-[#FFF3F3] border absolute bottom-12 left-16 items-center -rotate-12">
+            <p className="text-[#FF3333] flex text-xs gap-1 px-3 rounded-2xl py-1.5 border-[#FFC5C5] bg-[#FFF3F3] border absolute bottom-14 left-16 items-center -rotate-12">
               <Direction /> Unclear Product Direction
             </p>
             <p className="text-[#FF3333] flex text-xs gap-1 px-3 rounded-2xl py-1.5 border-[#FFC5C5] bg-[#FFF3F3] border absolute bottom-0 left-1/2 -translate-1/2 items-center">

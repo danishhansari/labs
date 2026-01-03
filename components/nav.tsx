@@ -24,8 +24,8 @@ export const Nav = () => {
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return (
-    <div className="relative border-b px-4 sm:px-8 lg:px-16">
-      <div className="absolute -bottom-1 left-0 w-full flex justify-between px-4 sm:px-6 lg:px-14">
+    <div className="relative border-b px-4 sm:px-8 lg:px-24">
+      <div className="absolute -bottom-1 left-0 w-full flex justify-between px-4 sm:px-6 lg:px-22">
         <span className="w-2.5 h-2.5 rounded-full bg-[#040E0E] border ml-1 z-10"></span>
         <span className="w-2.5 h-2.5 rounded-full bg-[#040E0E] border mr-1 z-10"></span>
       </div>

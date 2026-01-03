@@ -8,7 +8,7 @@ export const Pricing = () => {
         className="bg-white border-x border-b border-zinc-200 py-14 text-[#040E0E]"
         id="pricing"
       >
-        <div className="relative px-4 sm:px-8 lg:px-16 border-y border-zinc-200">
+        <div className="relative px-4 sm:px-8 lg:px-24 border-y border-zinc-200">
           <div className="relative border-x border-zinc-200">
             <div className="absolute -top-1.5 -left-1.5 w-[101%]  flex justify-between">
               <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
@@ -35,7 +35,7 @@ export const Pricing = () => {
         </div>
 
         <div
-          className="relative px-4 sm:px-8 lg:px-16
+          className="relative px-4 sm:px-8 lg:px-24
          border-b border-zinc-200"
         >
           <div className="border-x border-zinc-200">
@@ -323,7 +323,7 @@ export const Pricing = () => {
             </div>
           </div>
 
-          <div className="relative px-4 sm:px-8 lg:px-16">
+          <div className="relative px-4 sm:px-8 lg:px-24">
             <div className="absolute -bottom-1 -left-1.5 md:w-[101%] flex justify-between pointer-events-none">
               <span className="w-2.5 h-2.5 rounded-full bg-white border border-zinc-200 z-10" />
               <span className="w-2.5 h-2.5 rounded-full bg-white border border-zinc-200 z-10" />

@@ -7,7 +7,7 @@ import { Button } from "./ui/button";
 
 export const Hero = () => {
   return (
-    <div className="relative px-4 sm:px-8 lg:px-16">
+    <div className="relative px-4 sm:px-8 lg:px-24">
       <div className="px-8 py-5 border-x-[0.01px] pt-6 border-t-0 border-b">
         <p
           className={`${romanFont.className} text-6xl text-center tracking-tight mt-8`}
@@ -21,10 +21,15 @@ export const Hero = () => {
           turn ideas into reliable, scalable products without the usual delays.
         </p>
         <div className="flex items-center gap-4 justify-center mt-8">
-          <Button size={'lg'} className="bg-[#14ABBA] hover:bg-[#14ABBA]/80 transition-colors text-white">
+          <Button
+            size={"lg"}
+            className="bg-[#14ABBA] hover:bg-[#14ABBA]/80 transition-colors text-white"
+          >
             Book a free call <Play size={10} fill="white" />
           </Button>
-          <Button size={'lg'} variant={"outline"}>View our work</Button>
+          <Button size={"lg"} variant={"outline"}>
+            View our work
+          </Button>
         </div>
 
         <div className="mb-8 mt-18 flex items-center justify-center gap-10">

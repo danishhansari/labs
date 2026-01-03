@@ -10,7 +10,7 @@ export const Faq = () => {
   return (
     <>
       <div className="bg-white text-[#040E0E] border-zinc-200">
-        <div className="relative px-4 sm:px-8 lg:px-16 border-y border-zinc-200">
+        <div className="relative px-4 sm:px-8 lg:px-24 border-y border-zinc-200">
           <div className="relative border-x border-zinc-200">
             <div className="pt-12 border">
               <h2
