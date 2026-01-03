@@ -16,10 +16,6 @@ export const Nav = () => {
       name: "Pricing",
       link: "#pricing",
     },
-    {
-      name: "Process",
-      link: "#process",
-    },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
