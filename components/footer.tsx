@@ -2,7 +2,7 @@
 import { romanFont } from "@/font";
 import { Button } from "./ui/button";
 import Cal from "@calcom/embed-react";
-import { Github, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Linkedin, Twitter } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -12,8 +12,7 @@ export const Footer = () => {
           <h1
             className={`${romanFont.className} pt-16 pb-4 tracking-tight text-3xl md:text-5xl mx-auto text-center`}
           >
-            Got something in mind? 
-            Let&apos;s talk it through
+            Got something in mind? Let&apos;s talk it through
           </h1>
           <div className="flex items-center justify-center pb-8 pt-2">
             <Button
@@ -42,7 +41,6 @@ export const Footer = () => {
         <p className="text-sm">Follow us on</p>
         <div className="flex items-center justify-center text-[#849191] gap-2.5">
           <Twitter size={18} />
-          <Github size={18} />
           <Linkedin size={18} />
         </div>
       </div>

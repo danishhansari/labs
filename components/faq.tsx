@@ -19,7 +19,7 @@ export const Faq = () => {
                 faqs
               </h2>
               <h1
-                className={`${romanFont.className} text-3xl md:text-5xl text-center tracking-tight mt-1 mb-6`}
+                className={`${romanFont.className} text-3xl md:text-5xl text-center tracking-tight mt-1 mb-2 md:mb-6`}
               >
                 Frequently asked questions
               </h1>
