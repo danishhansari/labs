@@ -13,7 +13,6 @@ export const Footer = () => {
             className={`${romanFont.className} pt-16 pb-4 tracking-tight text-5xl mx-auto text-center`}
           >
             Got something in mind? 
-            
             Let&apos;s talk it through
           </h1>
           <div className="flex items-center justify-center pb-8 pt-2">
