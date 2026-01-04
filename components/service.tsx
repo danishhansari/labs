@@ -39,7 +39,7 @@ export const Service = () => {
                       <h4
                         className={`${romanFont.className} font-medium text-xl`}
                       >
-                        Web & Mobile App Development
+                        Mobile App Development
                       </h4>
                       <p className="text-[#676C6C] mt-1 mb-2 text-sm">
                         We build scalable web and mobile applications that are
