@@ -4,11 +4,12 @@ import { Growth } from "@/svg/growth";
 import { UXLed } from "@/svg/svgs";
 import { Play } from "lucide-react";
 import { Button } from "./ui/button";
+import { Projects } from "./ui/projects";
 
 export const Hero = () => {
   return (
     <div className="relative px-5 sm:px-8 lg:px-18">
-      <div className="px-4 md:px-6 py-5 border-x-[0.01px] pt-6 border-t-0 border-b">
+      <div className="px-4 md:px-6 py-5 border-x-[0.01px] pt-6 border-t-0 border-b-0">
         <p
           className={`${romanFont.className} text-4xl lg:text-6xl text-center tracking-tight mt-8`}
         >
@@ -39,7 +40,7 @@ export const Hero = () => {
           </Button>
         </div>
 
-        <div className="mb-8 mt-12 md:mt-18 flex items-center justify-center gap-6 md:gap-10 flex-col md:flex-row">
+        <div className="mb-4 mt-12 md:mt-18 flex items-center justify-center gap-6 md:gap-10 flex-col md:flex-row">
           <p className="flex items-center gap-2 text-sm">
             <Fast /> Fast Product Launches
           </p>
@@ -51,6 +52,7 @@ export const Hero = () => {
           </p>
         </div>
       </div>
+      <Projects />
     </div>
   );
 };
