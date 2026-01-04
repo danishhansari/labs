@@ -23,20 +23,20 @@ export const Problem = () => {
         <div className="border-x border-zinc-200 flex flex-col lg:flex-row gap-6 items-stretch">
           <div className="pt-5 w-full">
             <h2
-              className={`px-6 text-[#FF5858] uppercase ${ibmPlexMono.className} text-sm md:text-base`}
+              className={`px-4 md:px-6 text-[#FF5858] uppercase ${ibmPlexMono.className} text-sm md:text-base`}
             >
               problems
             </h2>
             <p
-              className={`px-4 pl-6 text-3xl font-normal md:text-5xl ${romanFont.className} mt-3 tracking-tight`}
+              className={`px-4 md:pl-6 text-3xl font-normal md:text-5xl ${romanFont.className} mt-3 tracking-tight`}
             >
               Product building shouldn&apos;t be this complicated
             </p>
-            <ForegroundButton className="mx-7 mt-6 md:mt-8" />
+            <ForegroundButton className="mx-5 md:mx-7 mt-6 md:mt-8" />
 
-            <ul className="mt-12">
-              <li className="flex items-center gap-3 border-b border-zinc-200 py-4 px-8">
-                <span className="bg-[#FAFAFA] p-1.5 px-2 rounded-sm border-[0.5px] border-[#EBEBEB]">
+            <ul className="mt-8 md:mt-12">
+              <li className="flex items-center gap-3 border-b border-zinc-200 py-4 px-5 md:px-8">
+                <span className="bg-[#FAFAFA] p-1 md:p-1.5 px-1.5 md:px-2 rounded-sm border-[0.5px] border-[#EBEBEB]">
                   <CircleAlert
                     fill="#FF5858"
                     size={18}
@@ -44,12 +44,12 @@ export const Problem = () => {
                     className="block"
                   />
                 </span>
-                <span className="text-lg">
+                <span className="text-sm md:text-lg">
                   Too many agencies, no clear ownership
                 </span>
               </li>
-              <li className="flex items-center gap-3 border-b border-zinc-200 py-4 px-8">
-                <span className="bg-[#FAFAFA] p-1.5 px-2 rounded-sm border-[0.5px] border-[#EBEBEB]">
+              <li className="flex items-center gap-3 border-b border-zinc-200 py-4 px-5 md:px-8">
+                <span className="bg-[#FAFAFA] p-1 md:p-1.5 px-1.5 md:px-2 rounded-sm border-[0.5px] border-[#EBEBEB]">
                   <CircleAlert
                     fill="#FF5858"
                     size={18}
@@ -61,8 +61,8 @@ export const Problem = () => {
                   Slow timelines and unclear progress
                 </span>
               </li>
-              <li className="flex items-center gap-3 border-b border-zinc-200 py-4 px-8">
-                <span className="bg-[#FAFAFA] p-1.5 px-2 rounded-sm border-[0.5px] border-[#EBEBEB]">
+              <li className="flex items-center gap-3 border-b border-zinc-200 py-4 px-5 md:px-8">
+                <span className="bg-[#FAFAFA] p-1 md:p-1.5 px-1.5 md:px-2 rounded-sm border-[0.5px] border-[#EBEBEB]">
                   <CircleAlert
                     fill="#FF5858"
                     size={18}
@@ -70,12 +70,12 @@ export const Problem = () => {
                     className="block"
                   />
                 </span>
-                <span className="text-lg">
-                  Designs that look good but don&apos;t convert{" "}
+                <span className="text-sm md:text-lg">
+                  Designs that look good but don&apos;t convert
                 </span>
               </li>
-              <li className="flex items-center gap-3 py-4 px-8">
-                <span className="bg-[#FAFAFA] p-1.5 px-2 rounded-sm border-[0.5px] border-[#EBEBEB]">
+              <li className="flex items-center gap-3 py-4 px-5 md:px-8">
+                <span className="bg-[#FAFAFA] p-1 md:p-1.5 px-1.5 md:px-2 rounded-sm border-[0.5px] border-[#EBEBEB]">
                   <CircleAlert
                     fill="#FF5858"
                     size={18}
@@ -83,16 +83,16 @@ export const Problem = () => {
                     className="block"
                   />
                 </span>
-                <span className="text-lg">
+                <span className="text-sm md:text-lg">
                   Tech decisions that don&apos;t scale later
                 </span>
               </li>{" "}
             </ul>
           </div>
-          <div className="bg-[#FAFAFA] w-full relative h-[80vh] lg:h-auto">
-            <p className="text-[#FF3333] flex text-xs gap-2 px-3 rounded-2xl py-1 border-[#FFC5C5] bg-[#FFF3F3] border items-center absolute -rotate-[30deg] top-32 left-1/2 -translate-1/2">
+          <div className="bg-[#FAFAFA] w-full relative h-[60vh] md:h-[80vh] lg:h-auto">
+            <p className="text-[#FF3333] flex text-xs gap-1 md:gap-2 px-1 md:px-3 rounded-2xl py-0.5 md:py-1 border-[#FFC5C5] bg-[#FFF3F3] border items-center absolute -rotate-[30deg] top-32 left-1/2 -translate-1/2">
               <Marker />
-              Design Without Strategy
+              <span>Design Without Strategy</span>
             </p>
             <p className="text-[#FF3333] flex text-xs gap-2 px-3 rounded-2xl py-1 border-[#FFC5C5] bg-[#FFF3F3] border absolute items-center bottom-28 left-28">
               <Timeline />

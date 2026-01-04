@@ -14,12 +14,12 @@ export const Faq = () => {
           <div className="relative border-x border-zinc-200">
             <div className="pt-12 border">
               <h2
-                className={`pt-2 text-center uppercase ${ibmPlexMono.className} text-sm text-[#14ABBA]`}
+                className={`pt-2 text-center uppercase ${ibmPlexMono.className} text-sm md:text-base text-[#14ABBA]`}
               >
                 faqs
               </h2>
               <h1
-                className={`${romanFont.className} text-5xl text-center tracking-tight mt-1 mb-6`}
+                className={`${romanFont.className} text-3xl md:text-5xl text-center tracking-tight mt-1 mb-6`}
               >
                 Frequently asked questions
               </h1>

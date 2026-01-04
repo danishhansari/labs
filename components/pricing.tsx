@@ -6,28 +6,28 @@ export const Pricing = () => {
   return (
     <>
       <div
-        className="bg-white border-x border-b border-zinc-200 py-14 text-[#040E0E]"
+        className="bg-white border-x border-b border-zinc-200 py-12 md:py-14 text-[#040E0E]"
         id="pricing"
       >
-        <div className="relative px-4 sm:px-8 lg:px-18 border-y border-zinc-200">
+        <div className="relative px-5 sm:px-8 lg:px-18 border-y border-zinc-200">
           <div className="relative border-x border-zinc-200">
-            <div className="absolute -top-1.5 -left-1.5 w-[101%]  flex justify-between">
+            <div className="absolute -top-1.5 -left-1.5 w-[104%] md:w-[101%]  flex justify-between">
               <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
               <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
             </div>
 
-            <div className="absolute -bottom-1.5 -left-1.5 w-[101%]  flex justify-between">
+            <div className="absolute -bottom-1.5 -left-1.5 w-[104%] md:w-[101%]  flex justify-between">
               <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
               <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
             </div>
             <div>
               <h4
-                className={`pt-6 text-center font-semibold uppercase ${ibmPlexMono.className} text-sm text-[#14ABBA]`}
+                className={`pt-6 text-center font-semibold uppercase ${ibmPlexMono.className} text-sm md:text-base text-[#14ABBA]`}
               >
                 pricing
               </h4>
               <h2
-                className={`${romanFont.className} tracking-tight text-5xl text-center mt-1 pb-16`}
+                className={`${romanFont.className} tracking-tight text-3xl md:text-5xl text-center mt-1 pb-8 md:pb-16`}
               >
                 Clear pricing for every stage of your journey
               </h2>
@@ -36,7 +36,7 @@ export const Pricing = () => {
         </div>
 
         <div
-          className="relative px-4 sm:px-8 lg:px-18
+          className="relative px-5 sm:px-8 lg:px-18
          border-b border-zinc-200"
         >
           <div className="border-x border-zinc-200">
@@ -344,7 +344,7 @@ export const Pricing = () => {
           </div>
 
           <div className="relative px-4 sm:px-8 lg:px-20">
-            <div className="absolute -bottom-1 -left-1.5 md:w-[101%] flex justify-between pointer-events-none">
+            <div className="absolute -bottom-1 -left-1.5 w-[103.5%] md:w-[101%] flex justify-between pointer-events-none">
               <span className="w-2.5 h-2.5 rounded-full bg-white border border-zinc-200 z-10" />
               <span className="w-2.5 h-2.5 rounded-full bg-white border border-zinc-200 z-10" />
             </div>

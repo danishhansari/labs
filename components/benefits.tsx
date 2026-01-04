@@ -8,22 +8,22 @@ import { ForegroundButton } from "./ui/foreground-button";
 export const Benefits = () => {
   return (
     <>
-      <div className="bg-white py-14 text-[#040E0E]">
+      <div className="bg-white py-12 md:py-14 text-[#040E0E]">
         <div className="relative px-4 sm:px-8 lg:px-20 border-y border-zinc-200">
           <div className="relative border-x border-zinc-200">
-            <div className="absolute -top-1.5 -left-1.5 w-[101%]  flex justify-between">
+            <div className="absolute -top-1.5 -left-1.5 w-[103.5%] md:w-[101%]  flex justify-between">
               <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
               <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
             </div>
           </div>
           <div className="border-x border-zinc-200">
             <h4
-              className={`pt-6 text-center font-semibold uppercase ${ibmPlexMono.className} text-sm text-[#14ABBA]`}
+              className={`pt-6 text-center font-semibold uppercase ${ibmPlexMono.className} text-sm md:text-base text-[#14ABBA]`}
             >
               Benefits
             </h4>
             <h2
-              className={`${romanFont.className} tracking-tight text-5xl text-center mt-1 pb-16`}
+              className={`${romanFont.className} tracking-tight text-3xl md:text-5xl text-center mt-1 pb-16`}
             >
               Why teams choose AuroLabs
             </h2>
