@@ -53,7 +53,7 @@ export const Nav = () => {
             Book a call
           </Button>
 
-          <button className="hover:bg-gray-50">
+           <button className="hover:bg-gray-50 md:hidden">
             <Menu color="#849191" size={15} />
           </button>
         </nav>
