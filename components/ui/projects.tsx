@@ -12,7 +12,7 @@ import { Button } from "./button";
 export const Projects = () => {
   return (
     <div className="border-x pb-16">
-      <div className="bg-white/10 px-4 py-4">
+      <div className="bg-white/6 px-4 py-4">
         <div className="bg-white pb-8 rounded-sm">
           <div>
             <div className="flex items-center justify-between px-4 rounded-b-2xl py-2 mb-4 shadow-lg">
@@ -40,47 +40,47 @@ export const Projects = () => {
                 </div>
               </div>
               <div className="flex items-center">
-                <Button className="bg-gray-50 border border-gray-100 hover:bg-gray-50 rounded-sm">
+                <Button className="bg-gray-50 border border-gray-200 hover:bg-gray-50 rounded-sm">
                   Share
                 </Button>
               </div>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 px-4">
-              <div className="h-60 w-full">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-4 px-2 md:px-4">
+              <div className="h-42 md:h-60 w-full border border-gray-100 rounded-lg">
                 <img
                   src={"/banner-1.png"}
-                  className="object-cover h-full w-full rounded-lg object-top"
+                  className="object-cover h-full w-full rounded-lg object-center md:object-top"
                 />
               </div>
-              <div className="h-60 w-full">
+              <div className="h-42 md:h-60 w-full hidden md:block border border-gray-50 rounded-lg">
                 <img
                   src={"/banner-2.png"}
-                  className="object-cover h-full w-full rounded-lg object-top"
+                  className="object-cover h-full w-full rounded-lg object-center md:object-top"
                 />
               </div>
-              <div className="h-60 w-full">
+              <div className="h-42 md:h-60 w-full border border-gray-100 rounded-lg">
                 <img
                   src={"/banner-3.png"}
-                  className="object-cover h-full w-full rounded-lg object-top"
+                  className="object-cover h-full w-full rounded-lg object-center md:object-top"
                 />
               </div>
-              <div className="h-60 w-full">
+              <div className="h-42 md:h-60 w-full border border-gray-100 rounded-lg">
                 <img
                   src={"/banner-4.png"}
-                  className="object-cover h-full w-full rounded-lg object-top"
+                  className="object-cover h-full w-full rounded-lg object-center md:object-top"
                 />
               </div>
-              <div className="h-60 w-full hidden md:block">
+              <div className="h-42 md:h-60 w-full border border-gray-100 rounded-lg">
                 <img
                   src={"/banner-5.png"}
-                  className="object-cover h-full w-full rounded-lg object-top"
+                  className="object-cover h-full w-full rounded-lg object-center md:object-top"
                 />
               </div>
-              <div className="h-60 w-full hidden md:block">
+              <div className="h-42 md:h-60 w-full hidden md:block border border-gray-100 rounded-lg">
                 <img
                   src={"/banner-6.png"}
-                  className="object-cover h-full w-full rounded-lg object-top"
+                  className="object-cover h-full w-full rounded-lg object-left md:object-top"
                 />
               </div>
             </div>
