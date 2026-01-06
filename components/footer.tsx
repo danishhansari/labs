@@ -31,14 +31,14 @@ export const Footer = () => {
           />
         </div>
       </div>
-      <div className="flex px-4 sm:px-8 lg:px-22 border-t py-4 items-center justify-between ">
+      <div className="flex px-4 sm:px-8 lg:px-22 border-t py-4 items-center justify-center md:justify-between ">
         <a
           href="#"
-          className="text-xl font-medium bg-linear-to-b from-[#41C4C6] to-white text-transparent bg-clip-text"
+          className="hidden md:block text-xl font-medium bg-linear-to-b from-[#41C4C6] to-white text-transparent bg-clip-text"
         >
           AuroLabs
         </a>
-        <p className="text-sm">Follow us on</p>
+        <p className="text-sm hidden md:block">Follow us on</p>
         <div className="flex items-center justify-center text-[#849191] gap-2.5">
           <Twitter size={18} />
           <Linkedin size={18} />
