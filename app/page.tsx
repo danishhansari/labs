@@ -7,6 +7,7 @@ import { Nav } from "@/components/nav";
 import { Pricing } from "@/components/pricing";
 import { Service } from "@/components/service";
 import { Problem } from "@/components/problem";
+import NewNav from "@/components/nav-new";
 
 export default function Page() {
   return (

@@ -11,7 +11,7 @@ import { Button } from "./button";
 
 export const Projects = () => {
   return (
-    <div className="border-x pb-16">
+    <div className="border-x pb-16" id="work">
       <div className="bg-white/6 px-4 py-4">
         <div className="bg-white pb-8 rounded-sm">
           <div>
