@@ -4,6 +4,11 @@ export interface faqType {
   answer: string;
 }
 
+export interface ProblemType {
+  id: number;
+  text: string;
+}
+
 export const FAQs: Array<faqType> = [
   {
     id: 1,
@@ -40,5 +45,24 @@ export const FAQs: Array<faqType> = [
     question: "What happens after the project is completed?",
     answer:
       "We don’t disappear after launch. We support you with optimizations, improvements, and long-term growth if you choose to continue.",
+  },
+];
+
+export const Problems: Array<ProblemType> = [
+  {
+    id: 1,
+    text: "Too many agencies, no clear ownership",
+  },
+  {
+    id: 2,
+    text: "Slow timelines and unclear progress",
+  },
+  {
+    id: 3,
+    text: "Designs that look good but don’t convert",
+  },
+  {
+    id: 4,
+    text: "Tech decisions that don’t scale later",
   },
 ];

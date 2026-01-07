@@ -7,6 +7,7 @@ import { SlowDevelopment } from "@/svg/slow-development";
 import { Timeline } from "@/svg/timeline";
 import { CircleAlert } from "lucide-react";
 import { ForegroundButton } from "./ui/foreground-button";
+import { Problems, ProblemType } from "@/lib/content";
 
 export const Problem = () => {
   return (
@@ -35,62 +36,26 @@ export const Problem = () => {
             <ForegroundButton className="mx-5 md:mx-7 mt-6 md:mt-8" />
 
             <ul className="mt-8 md:mt-12">
-              <li className="flex items-center gap-3 border-b border-zinc-200 py-4 px-5 md:px-8">
-                <span className="bg-[#FAFAFA] p-1 md:p-1.5 px-1.5 md:px-2 rounded-sm border-[0.5px] border-[#EBEBEB]">
-                  <CircleAlert
-                    fill="#FF5858"
-                    size={18}
-                    color="white"
-                    className="block"
-                  />
-                </span>
-                <span className="text-xs md:text-sm">
-                  Too many agencies, no clear ownership
-                </span>
-              </li>
-              <li className="flex items-center gap-3 border-b border-zinc-200 py-4 px-5 md:px-8">
-                <span className="bg-[#FAFAFA] p-1 md:p-1.5 px-1.5 md:px-2 rounded-sm border-[0.5px] border-[#EBEBEB]">
-                  <CircleAlert
-                    fill="#FF5858"
-                    size={18}
-                    color="white"
-                    className="block"
-                  />
-                </span>
-                <span className="text-xs md:text-sm">
-                  Slow timelines and unclear progress
-                </span>
-              </li>
-              <li className="flex items-center gap-3 border-b border-zinc-200 py-4 px-5 md:px-8">
-                <span className="bg-[#FAFAFA] p-1 md:p-1.5 px-1.5 md:px-2 rounded-sm border-[0.5px] border-[#EBEBEB]">
-                  <CircleAlert
-                    fill="#FF5858"
-                    size={18}
-                    color="white"
-                    className="block"
-                  />
-                </span>
-                <span className="text-xs md:text-sm">
-                  Designs that look good but don&apos;t convert
-                </span>
-              </li>
-              <li className="flex items-center gap-3 py-4 px-5 md:px-8">
-                <span className="bg-[#FAFAFA] p-1 md:p-1.5 px-1.5 md:px-2 rounded-sm border-[0.5px] border-[#EBEBEB]">
-                  <CircleAlert
-                    fill="#FF5858"
-                    size={18}
-                    color="white"
-                    className="block"
-                  />
-                </span>
-                <span className="text-xs md:text-sm">
-                  Tech decisions that don&apos;t scale later
-                </span>
-              </li>{" "}
+              {Problems.map((problem: ProblemType) => (
+                <li
+                  key={problem.id}
+                  className="flex items-center gap-1 md:gap-3 border-b border-zinc-200 py-4 px-5 md:px-8"
+                >
+                  <span className="bg-[#FAFAFA] p-1 md:p-1.5 px-1.5 md:px-2 rounded-sm border-[0.5px] border-[#EBEBEB]">
+                    <CircleAlert
+                      fill="#FF5858"
+                      size={18}
+                      color="white"
+                      className="block"
+                    />
+                  </span>
+                  <span className="text-xs md:text-sm">{problem.text}</span>
+                </li>
+              ))}
             </ul>
           </div>
           <div className="bg-[#FAFAFA] w-full relative h-[60vh] md:h-[80vh] lg:h-auto">
-            <p className="text-[#FF3333] flex text-xs gap-1 md:gap-2 px-1 md:px-3 rounded-2xl py-0.5 md:py-1 border-[#FFC5C5] bg-[#FFF3F3] border items-center absolute -rotate-[30deg] top-32 left-1/2 -translate-1/2">
+            <p className="text-[#FF3333] flex text-xs gap-1 md:gap-2 px-1 md:px-3 rounded-2xl py-0.5 md:py-1 border-[#FFC5C5] bg-[#FFF3F3] border items-center absolute -rotate-30 top-32 left-1/2 -translate-1/2">
               <Marker />
               <span>Design Without Strategy</span>
             </p>
@@ -98,7 +63,7 @@ export const Problem = () => {
               <Timeline />
               Unpredictable Timelines
             </p>
-            <p className="text-[#FF3333] flex text-xs items-center gap-2 px-3 rounded-2xl py-1 border-[#FFC5C5] bg-[#FFF3F3] border absolute bottom-24 right-12 rotate-[30deg]">
+            <p className="text-[#FF3333] flex text-xs items-center gap-2 px-3 rounded-2xl py-1 border-[#FFC5C5] bg-[#FFF3F3] border absolute bottom-24 right-12 rotate-30">
               <SlowDevelopment />
               Slow Development Cycles
             </p>
