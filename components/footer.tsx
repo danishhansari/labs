@@ -12,7 +12,9 @@ export const Footer = () => {
           <h1
             className={`${romanFont.className} pt-12 md:pt-16 pb-4 tracking-tight text-3xl md:text-5xl mx-auto md:w-[40%] text-center`}
           >
-            Got something in mind? Let&apos;s talk it through
+            Got something in mind?
+            <br />
+            Let&apos;s talk it through
           </h1>
           <div className="flex items-center justify-center pb-8 pt-2">
             <Button
@@ -40,8 +42,12 @@ export const Footer = () => {
         </a>
         <p className="text-sm hidden md:block">Follow us on</p>
         <div className="flex items-center justify-center text-[#849191] gap-2.5">
-          <Twitter size={18} />
-          <Linkedin size={18} />
+          <a href="">
+            <Twitter size={18} />
+          </a>
+          <a href="">
+            <Linkedin size={18} />
+          </a>
         </div>
       </div>
     </>

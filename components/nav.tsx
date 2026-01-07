@@ -58,9 +58,9 @@ export const Nav = () => {
             aria-label="Toggle Menu"
           >
             {isMobileMenuOpen ? (
-              <X size={18} color="#849191" />
+              <X size={15} color="#849191" />
             ) : (
-              <Menu size={18} color="#849191" />
+              <Menu size={15} color="#849191" />
             )}
           </button>
         </nav>
@@ -78,7 +78,7 @@ export const Nav = () => {
         <ul className="flex flex-col gap-4 px-6 py-6 items-center justify-between">
           <div className="flex items-center flex-col gap-4">
             {navItems.map((item) => (
-              <li key={item.name} className="text-sm">
+              <li key={item.name} className="text-base">
                 <a
                   href={item.link}
                   onClick={() => setIsMobileMenuOpen(false)}
@@ -94,7 +94,7 @@ export const Nav = () => {
             data-cal-link="aurolabs/15min"
             data-cal-config='{"theme":"light"}'
             variant="outline"
-            className="mt-2 block w-full rounded-xs"
+            className="mt-12 rounded-xs"
           >
             Book a call
           </Button>
