@@ -94,7 +94,7 @@ export const Nav = () => {
             data-cal-link="aurolabs/15min"
             data-cal-config='{"theme":"light"}'
             variant="outline"
-            className="mt-12 rounded-xs"
+            className="mt-12"
           >
             Book a call
           </Button>
