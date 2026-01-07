@@ -76,7 +76,7 @@ export const Nav = () => {
         )}
       >
         <ul className="flex flex-col gap-4 px-6 py-6 items-center justify-between">
-          <div className="flex items-center flex-col gap-4">
+          <div className="flex items-center flex-col gap-6">
             {navItems.map((item) => (
               <li key={item.name} className="text-base">
                 <a
@@ -90,14 +90,16 @@ export const Nav = () => {
             ))}
           </div>
 
-          <Button
-            data-cal-link="aurolabs/15min"
-            data-cal-config='{"theme":"light"}'
-            variant="outline"
-            className="mt-12"
-          >
-            Book a call
-          </Button>
+          <li className="w-full px-5 mt-8">
+            <Button
+              data-cal-link="aurolabs/15min"
+              data-cal-config='{"theme":"light"}'
+              variant="outline"
+              className="mt-12 block w-full"
+            >
+              Book a call
+            </Button>
+          </li>
         </ul>
       </div>
     </div>
