@@ -39,7 +39,7 @@ export const Problem = () => {
               {Problems.map((problem: ProblemType) => (
                 <li
                   key={problem.id}
-                  className="flex items-center gap-1 md:gap-3 border-b border-zinc-200 py-4 px-5 md:px-8"
+                  className={`flex items-center gap-1 md:gap-3  ${problem.border} border-zinc-200 py-4 px-5 md:px-8`}
                 >
                   <span className="bg-[#FAFAFA] p-1 md:p-1.5 px-1.5 md:px-2 rounded-sm border-[0.5px] border-[#EBEBEB]">
                     <CircleAlert

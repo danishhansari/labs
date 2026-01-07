@@ -7,6 +7,7 @@ export interface faqType {
 export interface ProblemType {
   id: number;
   text: string;
+  border: string;
 }
 
 export const FAQs: Array<faqType> = [
@@ -52,17 +53,21 @@ export const Problems: Array<ProblemType> = [
   {
     id: 1,
     text: "Too many agencies, no clear ownership",
+    border: "border-b",
   },
   {
     id: 2,
     text: "Slow timelines and unclear progress",
+    border: "border-b",
   },
   {
     id: 3,
     text: "Designs that look good but don’t convert",
+    border: "border-b",
   },
   {
     id: 4,
     text: "Tech decisions that don’t scale later",
+    border: "",
   },
 ];
