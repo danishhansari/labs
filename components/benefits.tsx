@@ -2,7 +2,6 @@ import { ibmPlexMono, romanFont } from "@/font";
 import { BenefitsGrowth } from "@/svg/benefits-growth";
 import { Target } from "@/svg/target";
 import { Brain, MessageSquareDot, UserRound, Zap } from "lucide-react";
-import { Button } from "./ui/button";
 import { ForegroundButton } from "./ui/foreground-button";
 
 export const Benefits = () => {
@@ -30,9 +29,11 @@ export const Benefits = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-b border-zinc-200">
               <div className="p-4 mb:p-6 border-t border-r border-zinc-200">
                 <div className="bg-[#3B8EFC14] border border-[#BCD7FF] rounded-md inline-block p-1 px-1.5 my-2">
-                  <UserRound color="#3B8EFC" />
+                  <UserRound color="#3B8EFC" size={22} />
                 </div>
-                <h4 className={`${romanFont.className} text-lg md:text-xl mb-2`}>
+                <h4
+                  className={`${romanFont.className} text-lg md:text-xl mb-2`}
+                >
                   Founder-First Thinking
                 </h4>
                 <p className={`text-[#676C6C] text-sm md:text-base`}>
@@ -43,9 +44,11 @@ export const Benefits = () => {
 
               <div className="p-4 mb:p-6 border-t border-r border-zinc-200">
                 <div className="bg-[#9543FF14] border border-[#E7D3FF] rounded-md inline-block p-1 px-1.5 my-2">
-                  <Brain color="#9543FF" />
+                  <Brain color="#9543FF" size={22} />
                 </div>
-                <h4 className={`${romanFont.className} text-lg md:text-xl mb-2`}>
+                <h4
+                  className={`${romanFont.className} text-lg md:text-xl mb-2`}
+                >
                   UX-Led Approach
                 </h4>
                 <p className={`text-[#676C6C] text-sm md:text-base`}>
@@ -56,9 +59,11 @@ export const Benefits = () => {
 
               <div className="p-4 mb:p-6 border-t border-zinc-200">
                 <div className="bg-[#FF9B1814] border border-[#FFECD5] rounded-md inline-block p-1 px-1.5 my-2">
-                  <Zap color="#FF9B18" />
+                  <Zap color="#FF9B18" size={22} />
                 </div>
-                <h4 className={`${romanFont.className} text-lg md:text-xl mb-2`}>
+                <h4
+                  className={`${romanFont.className} text-lg md:text-xl mb-2`}
+                >
                   Fast, Focused Delivery
                 </h4>
                 <p className={`text-[#676C6C] text-sm md:text-base`}>
@@ -69,9 +74,11 @@ export const Benefits = () => {
 
               <div className="p-4 mb:p-6 border-t border-r border-zinc-200">
                 <div className="bg-[#275AD914] border border-[#D6E1FF] rounded-md inline-block p-1.5 px-1.5 my-2">
-                  <MessageSquareDot color="#275AD9" />
+                  <MessageSquareDot color="#275AD9" size={22} />
                 </div>
-                <h4 className={`${romanFont.className} text-lg md:text-xl mb-2`}>
+                <h4
+                  className={`${romanFont.className} text-lg md:text-xl mb-2`}
+                >
                   Clear Communication
                 </h4>
                 <p className={`text-[#676C6C] text-sm md:text-base`}>
@@ -84,7 +91,9 @@ export const Benefits = () => {
                 <div className="bg-[#3B8EFC14] border border-[#BCD7FF] rounded-md inline-block p-1 px-1.5 my-2">
                   <BenefitsGrowth />
                 </div>
-                <h4 className={`${romanFont.className} text-lg md:text-xl mb-2`}>
+                <h4
+                  className={`${romanFont.className} text-lg md:text-xl mb-2`}
+                >
                   Scalable Builds
                 </h4>
                 <p className={`text-[#676C6C] text-sm md:text-base`}>
@@ -97,7 +106,9 @@ export const Benefits = () => {
                 <div className="bg-[#3B8EFC14] border border-[#BCD7FF] rounded-md inline-block p-1 px-1.5 my-2">
                   <Target />
                 </div>
-                <h4 className={`${romanFont.className} text-lg md:text-xl mb-2`}>
+                <h4
+                  className={`${romanFont.className} text-lg md:text-xl mb-2`}
+                >
                   Outcome Driven
                 </h4>
                 <p className={`text-[#676C6C] text-sm md:text-base`}>
