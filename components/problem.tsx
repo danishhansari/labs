@@ -44,7 +44,7 @@ export const Problem = () => {
                     className="block"
                   />
                 </span>
-                <span className="text-sm md:text-lg">
+                <span className="text-xs md:text-sm">
                   Too many agencies, no clear ownership
                 </span>
               </li>
@@ -57,7 +57,7 @@ export const Problem = () => {
                     className="block"
                   />
                 </span>
-                <span className="text-sm md:text-lg">
+                <span className="text-xs md:text-sm">
                   Slow timelines and unclear progress
                 </span>
               </li>
@@ -70,7 +70,7 @@ export const Problem = () => {
                     className="block"
                   />
                 </span>
-                <span className="text-sm md:text-lg">
+                <span className="text-xs md:text-sm">
                   Designs that look good but don&apos;t convert
                 </span>
               </li>
@@ -83,7 +83,7 @@ export const Problem = () => {
                     className="block"
                   />
                 </span>
-                <span className="text-sm md:text-lg">
+                <span className="text-xs md:text-sm">
                   Tech decisions that don&apos;t scale later
                 </span>
               </li>{" "}

@@ -54,13 +54,13 @@ export const Nav = () => {
           {/* Mobile Toggle */}
           <button
             onClick={() => setIsMobileMenuOpen((prev) => !prev)}
-            className="md:hidden p-2 rounded-md hover:bg-gray-50/5 transition"
+            className="md:hidden p-1.5 rounded-md hover:bg-gray-50/5 transition"
             aria-label="Toggle Menu"
           >
             {isMobileMenuOpen ? (
-              <X size={15} color="#849191" />
+              <X size={16} color="#849191" />
             ) : (
-              <Menu size={15} color="#849191" />
+              <Menu size={16} color="#849191" />
             )}
           </button>
         </nav>
@@ -90,12 +90,12 @@ export const Nav = () => {
             ))}
           </div>
 
-          <li className="w-full px-5 mt-8">
+          <li className="w-full px-2.5 mt-6">
             <Button
               data-cal-link="aurolabs/15min"
               data-cal-config='{"theme":"light"}'
               variant="outline"
-              className="mt-12 block w-full"
+              className="mt-8 block w-full"
             >
               Book a call
             </Button>
