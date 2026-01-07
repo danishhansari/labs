@@ -42,7 +42,7 @@ export const Footer = () => {
         </a>
         <p className="text-sm hidden md:block">Follow us on</p>
         <div className="flex items-center justify-center text-[#849191] gap-2.5">
-          <a href="">
+          <a href="https://x.com/auro_labs">
             <Twitter size={18} />
           </a>
           <a href="">
