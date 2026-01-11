@@ -86,9 +86,9 @@ export const Service = () => {
                         </p>
                       </div>
                       <div className="w-full relative h-52 md:h-72 flex flex-col items-center justify-end overflow-hidden">
-                        <div className="w-66 h-50 absolute z-10 top-15 border border-gray-100 rounded-sm bg-white"></div>
-                        <div className="w-76 h-50 absolute z-10 top-20 border border-gray-100 rounded-sm bg-white"></div>
-                        <div className="mt-8 absolute z-20 rounded-sm top-16 drop-shadow-2xl">
+                        <div className="w-66 h-50 absolute z-10 to top-4 md:top-15 border border-gray-100 rounded-sm bg-white"></div>
+                        <div className="w-76 h-50 absolute z-20 top-10 md:top-20 border border-gray-100 rounded-sm bg-white"></div>
+                        <div className="pt-8 absolute z-30 rounded-sm top-6 md:top-16 drop-shadow-2xl px-4">
                           <img
                             src={"/fitness.png"}
                             className="w-88 rounded-xl"
