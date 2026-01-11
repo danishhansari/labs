@@ -6,10 +6,7 @@ import { motion } from "framer-motion";
 export const Service = () => {
   return (
     <>
-      <div
-        className="bg-white py-2 md:py-4 text-[#040E0E] border-zinc-200"
-        id="services"
-      >
+      <div className="bg-white py-2 md:py-4 text-[#040E0E]" id="services">
         <div className="relative px-5 sm:px-8 lg:px-18 border-y border-zinc-200">
           <div className="relative border-x border-zinc-200">
             <motion.div
