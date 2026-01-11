@@ -53,11 +53,11 @@ export const Service = () => {
                           fast, secure, and ready for real users.
                         </p>
                       </div>
-                      <div className="w-full relative h-60 md:h-72 overflow-hidden">
+                      <div className="w-full relative h-44 md:h-72 overflow-hidden">
                         <img
                           src="/left-mobile.png"
                           alt="Image"
-                          className="w-28 md:w-32 absolute top-20 left-4 z-10"
+                          className="w-28 md:w-32 absolute top-24 md:top-20 left-4 z-10"
                         />
 
                         <img
@@ -69,7 +69,7 @@ export const Service = () => {
                         <img
                           src="/right-mobile.png"
                           alt="Image"
-                          className="w-28 md:w-32 absolute top-20 right-4 z-10"
+                          className="w-28 md:w-32 absolute top-24 md:top-20 right-4 z-10"
                         />
                       </div>
                     </div>
