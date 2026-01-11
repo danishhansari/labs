@@ -12,7 +12,7 @@ export const Footer = () => {
         className="text-white px-4 sm:px-8 lg:px-20 bg-[#040E0E]"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.2 }} // triggers once when 20% visible
+        viewport={{ once: true, amount: 0.2 }} 
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <div className="relative border-x border-zinc-800">

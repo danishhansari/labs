@@ -31,7 +31,7 @@ export const Hero = () => {
           >
             Book a free call{" "}
             <Play
-              className="-translate-x-[6px] transition-transform group-hover:rotate-6 group-hover:-translate-x-[5px]  scale-105"
+              className="-translate-x-1.5 transition-transform group-hover:rotate-6 group-hover:-translate-x-1.25  scale-105"
               fill="white"
             />
           </Button>

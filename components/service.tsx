@@ -53,7 +53,25 @@ export const Service = () => {
                           fast, secure, and ready for real users.
                         </p>
                       </div>
-                      <div className="w-full h-0"></div>
+                      <div className="w-full relative h-72 overflow-hidden">
+                        <img
+                          src="/left-mobile.png"
+                          alt="Image"
+                          className="w-32 absolute top-20 left-4 z-10"
+                        />
+
+                        <img
+                          src="/front-mobile.png"
+                          alt="Image"
+                          className="w-52 absolute top-10 left-1/2 -translate-x-1/2 z-20"
+                        />
+
+                        <img
+                          src="/right-mobile.png"
+                          alt="Image"
+                          className="w-32 absolute top-20 right-4 z-10"
+                        />
+                      </div>
                     </div>
                     <div className="md:border border-t border-zinc-200 border-x-0 bg-[#fafafa]">
                       <div className="p-4 md:p-6 bg-white">
