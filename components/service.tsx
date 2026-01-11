@@ -53,7 +53,7 @@ export const Service = () => {
                           fast, secure, and ready for real users.
                         </p>
                       </div>
-                      <div className="w-full relative h-44 md:h-72 overflow-hidden">
+                      <div className="w-full relative h-52 md:h-72 overflow-hidden">
                         <img
                           src="/left-mobile.png"
                           alt="Image"
@@ -85,7 +85,17 @@ export const Service = () => {
                           communicate value and convert visitors.
                         </p>
                       </div>
-                      <div className="hidden md:block w-full h-[40vh]"></div>
+                      <div className="w-full relative h-52 md:h-72 flex flex-col items-center justify-end overflow-hidden">
+                        <div className="w-66 h-50 absolute z-10 top-15 border border-gray-100 rounded-sm bg-white"></div>
+                        <div className="w-76 h-50 absolute z-10 top-20 border border-gray-100 rounded-sm bg-white"></div>
+                        <div className="mt-8 absolute z-20 rounded-sm top-16 drop-shadow-2xl">
+                          <img
+                            src={"/fitness.png"}
+                            className="w-88 rounded-xl"
+                            alt="Fitness"
+                          />
+                        </div>
+                      </div>
                     </div>
                     <div className=" border border-zinc-200 border-x-0 bg-[#fafafa]">
                       <div className="p-4 md:p-6 bg-white">
