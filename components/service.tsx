@@ -57,19 +57,19 @@ export const Service = () => {
                         <img
                           src="/left-mobile.png"
                           alt="Image"
-                          className="w-32 absolute top-20 left-4 z-10"
+                          className="w-28 md:w-32 absolute top-20 left-4 z-10"
                         />
 
                         <img
                           src="/front-mobile.png"
                           alt="Image"
-                          className="w-52 absolute top-10 left-1/2 -translate-x-1/2 z-20"
+                          className="w-36 md:w-52 absolute top-10 left-1/2 -translate-x-1/2 z-20"
                         />
 
                         <img
                           src="/right-mobile.png"
                           alt="Image"
-                          className="w-32 absolute top-20 right-4 z-10"
+                          className="w-28 md:w-32 absolute top-20 right-4 z-10"
                         />
                       </div>
                     </div>
