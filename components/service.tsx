@@ -53,7 +53,7 @@ export const Service = () => {
                           fast, secure, and ready for real users.
                         </p>
                       </div>
-                      <div className="w-full relative h-72 overflow-hidden">
+                      <div className="w-full relative h-60 md:h-72 overflow-hidden">
                         <img
                           src="/left-mobile.png"
                           alt="Image"
