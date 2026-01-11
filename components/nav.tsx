@@ -66,7 +66,6 @@ export const Nav = () => {
         </nav>
       </div>
 
-      {/* Mobile Menu */}
       <div
         className={clsx(
           "md:hidden absolute left-0 w-full z-20 bg-[#040E0E] border-t transition-all duration-500 ease-in-out",

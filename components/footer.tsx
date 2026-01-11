@@ -39,7 +39,7 @@ export const Footer = () => {
             config={{ theme: "light" }}
           />
         </div>
-        <div className="flex px-4 sm:px-8 lg:px-22 border-t py-4 items-center justify-center md:justify-between ">
+        <div className="flex px-4 sm:px-8 lg:px-8 border-t border-x py-4 items-center justify-center md:justify-between ">
           <a
             href="#"
             className="hidden md:block text-xl font-medium bg-linear-to-b from-[#41C4C6] to-white text-transparent bg-clip-text"
