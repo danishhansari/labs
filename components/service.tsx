@@ -2,6 +2,8 @@
 import { ibmPlexMono, romanFont } from "@/font";
 import { ForegroundButton } from "./ui/foreground-button";
 import { motion } from "framer-motion";
+import { AI } from "@/svg/ai";
+import { Send, Sparkles } from "lucide-react";
 
 export const Service = () => {
   return (
@@ -106,7 +108,19 @@ export const Service = () => {
                           automate processes & unlock business insights.
                         </p>
                       </div>
-                      <div className="hidden md:block w-full h-[40vh]"></div>
+                      <div className="w-full relative h-52 md:h-72 flex flex-col items-center justify-end overflow-hidden">
+                        <div>
+                          <AI />
+                          <p>How can I help you today?</p>
+                          <div className="flex items-center justify-between">
+                            <div className="flex items-center text-zinc-300">
+                              <Sparkles />
+                              <p>Ask anything</p>
+                            </div>
+                            <Send className="text-white bg-black p-1 rounded-3xl" />
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
