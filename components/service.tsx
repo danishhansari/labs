@@ -108,21 +108,21 @@ export const Service = () => {
                           automate processes & unlock business insights.
                         </p>
                       </div>
-                      <div className="w-full relative h-52 md:h-72 flex flex-col items-center justify-end overflow-hidden">
-                        <div className="bg-white rounded-lg border border-zinc-100 rounded-b-none">
+                      <div className="w-full relative h-56 md:h-72 overflow-hidden flex items-end justify-center ">
+                        <div className="bg-white rounded-lg px-4 border mx-4 bottom-0 w-[80%] border-zinc-100 rounded-b-none">
                           <div className="flex items-center justify-center py-2">
                             <AI />
                           </div>
-                          <p className="text-xs mx-4">
+                          <p className="text-xs mx-4 text-center">
                             How can I help you today?
                           </p>
-                          <div className="flex items-center justify-between  bg-gray-50 px-2 py-1 my-3 mx-1 rounded-xl">
-                            <div className="flex items-center text-zinc-200 ">
-                              <Sparkles size={12} />
+                          <div className="flex items-center justify-between border border-zinc-200 bg-white shadow-xs px-2 py-1 my-3 mx-1 rounded-xl">
+                            <div className="flex items-center text-zinc-400">
+                              <Sparkles size={12} fill="#9f9fa9" />
                               <p className="text-xs">Ask anything</p>
                             </div>
-                            <div className="bg-black rounded-3xl p-0.5">
-                              <Send size={16} className="text-white" />
+                            <div className="bg-black rounded-3xl p-1 flex items-center justify-center">
+                              <Send size={13} className="text-white"  />
                             </div>
                           </div>
                         </div>
