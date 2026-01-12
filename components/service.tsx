@@ -109,15 +109,21 @@ export const Service = () => {
                         </p>
                       </div>
                       <div className="w-full relative h-52 md:h-72 flex flex-col items-center justify-end overflow-hidden">
-                        <div>
-                          <AI />
-                          <p>How can I help you today?</p>
-                          <div className="flex items-center justify-between">
-                            <div className="flex items-center text-zinc-300">
-                              <Sparkles />
-                              <p>Ask anything</p>
+                        <div className="bg-white rounded-lg border border-zinc-100 rounded-b-none">
+                          <div className="flex items-center justify-center py-2">
+                            <AI />
+                          </div>
+                          <p className="text-xs mx-4">
+                            How can I help you today?
+                          </p>
+                          <div className="flex items-center justify-between  bg-gray-50 px-2 py-1 my-3 mx-1 rounded-xl">
+                            <div className="flex items-center text-zinc-200 ">
+                              <Sparkles size={12} />
+                              <p className="text-xs">Ask anything</p>
                             </div>
-                            <Send className="text-white bg-black p-1 rounded-3xl" />
+                            <div className="bg-black rounded-3xl p-0.5">
+                              <Send size={16} className="text-white" />
+                            </div>
                           </div>
                         </div>
                       </div>
