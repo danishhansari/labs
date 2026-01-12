@@ -109,7 +109,7 @@ export const Service = () => {
                         </p>
                       </div>
                       <div className="w-full relative h-56 md:h-72 overflow-hidden flex items-end justify-center ">
-                        <div className="bg-white rounded-lg px-4 border mx-4 bottom-0 w-[80%] border-zinc-100 rounded-b-none">
+                        <div className="bg-white rounded-lg px-4 border mx-4 bottom-0 w-[80%] border-zinc-100 z-30 rounded-b-none">
                           <div className="flex items-center justify-center py-2">
                             <AI />
                           </div>
@@ -117,15 +117,16 @@ export const Service = () => {
                             How can I help you today?
                           </p>
                           <div className="flex items-center justify-between border border-zinc-200 bg-white shadow-xs px-2 py-1 my-3 mx-1 rounded-xl">
-                            <div className="flex items-center text-zinc-400">
+                            <div className="flex items-center text-zinc-400 gap-1">
                               <Sparkles size={12} fill="#9f9fa9" />
                               <p className="text-xs">Ask anything</p>
                             </div>
                             <div className="bg-black rounded-3xl p-1 flex items-center justify-center">
-                              <Send size={13} className="text-white"  />
+                              <Send size={13} className="text-white" />
                             </div>
                           </div>
                         </div>
+                        <div className="bg-white rounded-lg border-zinc-100 border h-46 absolute w-[80%] z-20 rotate-6 left-13"></div>
                       </div>
                     </div>
                   </div>
