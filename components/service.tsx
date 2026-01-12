@@ -116,7 +116,7 @@ export const Service = () => {
                           <p className="text-xs mx-4 text-center">
                             How can I help you today?
                           </p>
-                          <div className="flex items-center justify-between border border-zinc-200 bg-white shadow-xs px-2 py-1 my-3 mx-1 rounded-xl">
+                          <div className="flex items-center justify-between border border-b-0 border-zinc-200 bg-white shadow-xs px-2 py-1 my-3 mx-1 rounded-xl">
                             <div className="flex items-center text-zinc-400 gap-1">
                               <Sparkles size={12} fill="#9f9fa9" />
                               <p className="text-xs">Ask anything</p>
@@ -126,8 +126,8 @@ export const Service = () => {
                             </div>
                           </div>
                         </div>
-                        <div className="bg-white rounded-lg border-zinc-100 border h-46 absolute w-[80%] z-20 rotate-6 left-13"></div>
-                        <div className="bg-white rounded-lg border-zinc-100 border h-46 absolute w-[80%] z-10 -rotate-6 left-9 bottom-1"></div>
+                        <div className="bg-white border-b-0 rounded-lg border-zinc-100 border h-46 absolute w-[80%] z-20 rotate-6 left-13"></div>
+                        <div className="bg-white rounded-lg border-b-0 border-zinc-100 border h-46 absolute w-[80%] z-10 -rotate-6 left-9 bottom-1"></div>
                       </div>
                     </div>
                   </div>
