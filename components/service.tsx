@@ -37,7 +37,7 @@ export const Service = () => {
                     <span className="w-2.5 h-2.5 mt-0.5 rounded-full bg-white border border-zinc-200  z-10"></span>
                   </div>
 
-                  <div className="flex flex-col md:flex-row">
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     <div className="md:border border-t border-zinc-200 md:border-x-0 bg-[#fafafa]">
                       <div className="p-4 md:p-6 bg-white">
                         <h4
@@ -83,8 +83,8 @@ export const Service = () => {
                         </p>
                       </div>
                       <div className="w-full relative h-52 md:h-72 flex flex-col items-center justify-end overflow-hidden">
-                        <div className="w-48 h-50 absolute z-10 to top-6 md:top-15 border border-gray-100 rounded-sm bg-white px-10"></div>
-                        <div className="w-60 h-50 absolute z-20 top-10 md:top-20 border border-gray-100 rounded-sm bg-white px-8"></div>
+                        <div className="w-48 h-50 absolute z-10 to top-6 md:top-15 border border-zinc-100 rounded-sm bg-white px-10"></div>
+                        <div className="w-60 h-50 absolute z-20 top-10 md:top-20 border border-zinc-100 rounded-sm bg-white px-8"></div>
                         <div className="pt-8 absolute z-30 rounded-sm top-6 md:top-16 drop-shadow-2xl px-4">
                           <img
                             src={"/fitness.png"}
