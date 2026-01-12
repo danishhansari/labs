@@ -127,7 +127,7 @@ export const Service = () => {
                           </div>
                         </div>
                         <div className="bg-white rounded-lg border-zinc-100 border h-46 absolute w-[80%] z-20 rotate-6 left-13"></div>
-                        <div className="bg-white rounded-lg border-zinc-100 border h-46 absolute w-[80%] z-10 -rotate-6 left-9 bottom-4"></div>
+                        <div className="bg-white rounded-lg border-zinc-100 border h-46 absolute w-[80%] z-10 -rotate-6 left-9 bottom-2"></div>
                       </div>
                     </div>
                   </div>
